@@ -5,3 +5,9 @@ MARKUP-
 HTML ELEMENTS-
               An element is a collection of opening tag closing tag and data inside that tags is called as html Element 
 -------------------------------------------------------------------------
+Nested Tags-
+             Adding tags inside another tag called as Nesting tags ex(<p><b>Prathamsh Gunjal</b></p>)
+------------------------------------------------------------------------
+HEADING TAGS-
+            - In HTMl there are total 6 head tags h1,h2,h3,h4,h5,h6      having their own default sizes 
+            - h1 to h6 tags represents six level of section headings
