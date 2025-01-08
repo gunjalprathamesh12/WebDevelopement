@@ -1,0 +1,7 @@
+Html stands for Hyper Text Markup Language 
+MARKUP-
+        Markup tells us about the structure of websites its formating
+--------------------------------------------------------------------------
+HTML ELEMENTS-
+              An element is a collection of opening tag closing tag and data inside that tags is called as html Element 
+-------------------------------------------------------------------------
