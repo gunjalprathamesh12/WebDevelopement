@@ -11,3 +11,18 @@ Nested Tags-
 HEADING TAGS-
             - In HTMl there are total 6 head tags h1,h2,h3,h4,h5,h6      having their own default sizes 
             - h1 to h6 tags represents six level of section headings
+-------------------------------------------------------------------------
+Boiler Plate code-
+
+                  <!DOCTYPE html>//tells browser that we are using html 5 version
+<html lang="en">
+<head>//here we store our meta data which we dont want to show to others
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
