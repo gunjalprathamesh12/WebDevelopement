@@ -5,3 +5,8 @@ Lists are of two types ordered list and unordered List
 HTML Attributes
 Attributes are used to add extra information into our tag
 ex-<html lang="eng"> lang is an atribute
+
+---------------------------------------------------------------------------------
+anchor tags is ued to add links into the texts 
+<a href=""</a>
+Here href stands for hyper Text refference
