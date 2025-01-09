@@ -15,3 +15,23 @@ Here href stands for hyper Text refference
 
 ----------------------------------------------------------------------------------
 HTML is a non case sensative language
+
+-----------------------------------------------------------------------------------
+We can add symbols in html code by using this ---&hearts;
+ex--
+     ♥ → ♥ (Heart Symbol)
+© → © (Copyright Symbol)
+® → ® (Registered Trademark Symbol)
+€ → € (Euro Currency Symbol)
+£ → £ (Pound Currency Symbol)
+¥ → ¥ (Yen Currency Symbol)
+† → † (Dagger Symbol)
+‡ → ‡ (Double Dagger Symbol)
+• → • (Bullet Point)
+™ → ™ (Trademark Symbol)
+∞ → ∞ (Infinity Symbol)
+♠ → ♠ (Spades Suit)
+♣ → ♣ (Clubs Suit)
+♦ → ♦ (Diamonds Suit)
+′ → ′ (Prime Symbol)
+° → ° (Degree Symbol)
