@@ -10,3 +10,7 @@ ex-<html lang="eng"> lang is an atribute
 anchor tags is ued to add links into the texts 
 <a href=""</a>
 Here href stands for hyper Text refference
+----------------------------------------------------------------------------------
+<img src="imagepath.jpeg" alt="Alternate name " height,width >
+
+----------------------------------------------------------------------------------
