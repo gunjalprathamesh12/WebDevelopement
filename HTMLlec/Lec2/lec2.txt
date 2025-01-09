@@ -1,0 +1,7 @@
+Lists are of two types ordered list and unordered List
+<ul></ul> ordered list
+<ol></ol> unordered List
+--------------------------------------------------------------------------------
+HTML Attributes
+Attributes are used to add extra information into our tag
+ex-<html lang="eng"> lang is an atribute
