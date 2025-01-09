@@ -14,3 +14,4 @@ Here href stands for hyper Text refference
 <img src="imagepath.jpeg" alt="Alternate name " height,width >
 
 ----------------------------------------------------------------------------------
+HTML is a non case sensative language
