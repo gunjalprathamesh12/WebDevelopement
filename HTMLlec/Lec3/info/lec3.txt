@@ -14,4 +14,49 @@ Span is also like div it is also used to grouping of html elements
         But Span is a inline element
 
 -----------------------------------------------------------------------------------
-hr tags is used to break the line and adds a horizontal line on it
+HR tags is used to break the line and adds a horizontal line on it
+
+-----------------------------------------------------------------------------------
+sementic tags:-
+                 Semantic markup is a way of writing HTML so that it clearly describes the meaning of the content on a web page. It uses tags that make sense to humans and computers, like:
+
+                <header> for the top part of a page
+                <article> for an article or blog post
+                <footer> for the bottom part of a page
+
+                Semantic tags in HTML include more than just <header>, <article>, and <footer>. Here’s a full list of commonly used semantic tags and their purposes:
+
+Structure-Related Tags
+<header>: Represents the header section of a page or a section.
+<footer>: Represents the footer section of a page or a section.
+<main>: Represents the main content of the document, unique and central to the page.
+<section>: Represents a thematic grouping of content, often with a heading.
+<article>: Represents a standalone piece of content, like a blog post or news article.
+<aside>: Represents content related to the main content, like sidebars or pull quotes.
+<nav>: Represents navigation links or menus.
+<address>: Represents contact information for its nearest ancestor or the document.
+Text and Media Tags
+<figure>: Represents content, like images or charts, with an optional <figcaption> for captions.
+<figcaption>: Provides a caption or description for the <figure> element.
+<blockquote>: Represents a block of quoted text, typically with attribution.
+<cite>: Represents the title of a work (e.g., book, article, or movie).
+<time>: Represents a date, time, or both (can include machine-readable formats for events or updates).
+Table-Related Tags (Semantic for Tabular Data)
+<table>: Represents tabular data.
+<thead>: Groups the header content in a table.
+<tbody>: Groups the body content in a table.
+<tfoot>: Groups the footer content in a table.
+<caption>: Provides a caption for a table.
+<th>: Represents a table header cell.
+Other Tags
+<mark>: Highlights or emphasizes text, like search results.
+<summary>: Used with <details> to provide a summary or label for the collapsible content.
+<details>: Represents additional details or content that users can view or hide.
+<progress>: Represents progress toward a task (like a progress bar).
+<meter>: Represents a scalar measurement or range (e.g., a temperature gauge).
+<dialog>: Represents a dialog box or interactive widget (e.g., a modal).
+
+-----------------------------------------------------------------------------------
+HTML entities:-
+                 HTML entities are the entities which start with & and ents with ;
+                 like &nbsp(non breaking space);
