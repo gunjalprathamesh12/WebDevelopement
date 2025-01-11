@@ -1,0 +1,17 @@
+inline and block elements
+
+Inline Eelements:- are those elements who takes only necessary width of page they dont start from the new line
+
+Block Elements:- block elements are those elements who all all of the width of a page and always also starts from new line
+
+-----------------------------------------------------------------------------------
+Div Element:-(content division element)
+            it is block line element
+Div is a conteainer is used to make group of another html elements
+-----------------------------------------------------------------------------------
+
+Span is also like div it is also used to grouping of html elements
+        But Span is a inline element
+
+-----------------------------------------------------------------------------------
+hr tags is used to break the line and adds a horizontal line on it
