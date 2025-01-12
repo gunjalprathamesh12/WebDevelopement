@@ -1,0 +1,7 @@
+Table is combination of the Rows and columns
+to create a table in html we use <table> tag
+
+also table tags used another tags like
+<tr> it is used to create rows into the table
+<td> it is used to display table data
+<th> it is used to dislay or create table header
