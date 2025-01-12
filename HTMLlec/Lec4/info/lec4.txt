@@ -1,3 +1,4 @@
+       --Table--
 Table is combination of the Rows and columns
 to create a table in html we use <table> tag
 
@@ -5,3 +6,14 @@ also table tags used another tags like
 <tr> it is used to create rows into the table
 <td> it is used to display table data
 <th> it is used to dislay or create table header
+
+By default heading if the Tbale th is Bold
+-----------------------------------------------------------------------------------
+            --Semantic Tags in Table--
+<thead> simply we can put our tables important data into the <thead>
+<tbody> we can put our table data into the <tbody> tag
+<tfooter> tfooter we cannot use frequently into our code or creating tables mostlu we use <thead> and <tbody> tags.
+
+-----------------------------------------------------------------------------------
+                 --callspan and rowspan in tables--
+span is means one cell covers how much of the area inside the table
