@@ -17,3 +17,32 @@ By default heading if the Tbale th is Bold
 -----------------------------------------------------------------------------------
                  --callspan and rowspan in tables--
 span is means one cell covers how much of the area inside the table
+
+-----------------------------------------------------------------------------------
+                 --Form Tags--
+form tags in html is used to create forms in  html
+
+    <form action=""></form>  here action Attribute is used to define what action needs to be performed when a form is submitted or wherever data should be send
+
+Types of inputs in html
+     <input type="text" placeholder="enter text" name="" id="" />
+      <input type="time" placeholder="time" name="" id="" />
+      <input type="date" name="" id="" placeholder="date" />
+      <input type="color" name="" placeholder="color" id="" />color
+      <input type="datetime-local" placeholder="d" />
+      <input type="emial" placeholder="emial" />
+      <input type="file" placeholder="choose file" />
+      <input type="range" name="" id="" placeholder="range" />
+      <input type="reset" name="" id="" />
+      <input type="search" name="" id="" placeholder="search" />
+
+      Alos There are 24-25 input tags in html also
+
+-----------------------------------------------------------------------------------
+  Labels
+  labels represents a caption for an item in a user interface
+  this is a normal approch to write labels
+      <label >text<input type="text" placeholder="enter text" name="" id="" /></label>
+but this is valid and a classical Approch--
+                <label for="text">Enter etxt</label>
+      <input type="text" id="text" placeholder="enter text" name="" id="" />
