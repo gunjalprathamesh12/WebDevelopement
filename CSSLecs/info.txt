@@ -6,4 +6,14 @@ We can add our css inside the html by using three ways
 
                   ex <h1 style="color:red">prathamesh gunjal</h1>
 
-2-
+this inline css is not recommonded.
+by using inline style we cannot implement it on large scale
+
+2- using internal css :-
+                  internal css can be apply usign <style> tag
+                  ex
+                  <style>
+                  h1{
+                    color: red;
+                  }
+                  </style>
