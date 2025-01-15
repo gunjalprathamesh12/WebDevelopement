@@ -17,3 +17,8 @@ by using inline style we cannot implement it on large scale
                     color: red;
                   }
                   </style>
+but the unternal css technique is also not fesable to write
+thats why the way to write css is by using External css .
+
+3- External css:-
+                   means create a new html and css file seperate and link them usin link rel="stylesheet" ref="style.css"/>
