@@ -1,1 +1,9 @@
 CSS stands for :---Cascading style sheet
+-------------------------------------------------------------------------------------
+We can add our css inside the html by using three ways
+
+1-inline css-     means writing style inside the html element.
+
+                  ex <h1 style="color:red">prathamesh gunjal</h1>
+
+2-
