@@ -24,3 +24,10 @@ thats why the way to write css is by using External css .
                    means create a new html and css file seperate and link them usin link rel="stylesheet" ref="style.css"/>
 -----------------------------------------------------------------------------------------
 color Names:-Each browser recognizes around 140 color names
+
+----------------------------------------------------------------------------------------------------------------
+RGB is a combination of red, blur, green colors
+          color: rgb(255, 0, 0); /* Red */
+          color: rgb(0, 255, 0); /* Green */
+          color: rgb(0, 0, 255); /* Blue */
+          color: rgb(255, 255, 0); /* Yellow */

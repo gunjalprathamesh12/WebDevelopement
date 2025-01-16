@@ -1,0 +1,3 @@
+this hex code is similar to the RGB format 
+ex color = #ffffff
+color=#ff(r)ff(g)ff(b)

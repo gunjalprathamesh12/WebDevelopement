@@ -1,1 +1,0 @@
-color property:- it is used to set color to foreground and also for background
