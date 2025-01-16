@@ -22,3 +22,5 @@ thats why the way to write css is by using External css .
 
 3- External css:-
                    means create a new html and css file seperate and link them usin link rel="stylesheet" ref="style.css"/>
+-----------------------------------------------------------------------------------------
+color Names:-Each browser recognizes around 140 color names
