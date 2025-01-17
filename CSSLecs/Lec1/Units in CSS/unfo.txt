@@ -1,0 +1,22 @@
+In CSS, there are several units you can use to specify font sizes. Here are the most common ones:
+
+Absolute units:
+
+px (pixels)
+pt (points)
+pc (picas)
+in (inches)
+cm (centimeters)
+mm (millimeters)
+Relative units:
+
+em (relative to the font-size of the element)
+rem (relative to the font-size of the root element)
+% (percentage, relative to the parent element's font size)
+vw (viewport width)
+vh (viewport height)
+vmin (minimum of viewport width and height)
+vmin (minimum of viewport width and height)
+vmax (maximum of viewport width and height)
+ex (relative to the x-height of the current font)
+ch (relative to the width of the "0" (zero) character)
