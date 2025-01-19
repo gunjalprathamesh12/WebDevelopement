@@ -10,3 +10,5 @@ Universal Selectors-
                     .className (Class Selector): Selects all elements with the class className.
 
                     #idName (ID Selector): Selects the element with the ID idName.
+-----------------------------------------------------------------------------------
+Decendent Selector:-

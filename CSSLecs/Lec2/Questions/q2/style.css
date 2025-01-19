@@ -1,0 +1,25 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: #ff5733;
+}
+
+#submit {
+  background-color: green;
+  color: white;
+}
+
+#Cancel {
+  background-color: red;
+  color: white;
+}
+#Reset {
+  background-color: red;
+  color: white;
+}
+
+p {
+  color: #008080;
+}
