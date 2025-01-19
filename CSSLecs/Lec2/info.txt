@@ -12,3 +12,7 @@ Universal Selectors-
                     #idName (ID Selector): Selects the element with the ID idName.
 -----------------------------------------------------------------------------------
 Decendent Selector:-
+                    A descendant selector in CSS is used to select elements that are nested within another element. It targets all elements that are descendants of a specified element.
+
+                    example
+                    nav ul li a{  color: hotpink;   }
