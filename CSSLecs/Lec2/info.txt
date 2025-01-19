@@ -29,4 +29,14 @@ Child Combinator :-
         div > p {
             color: red;
         }
-        
+
+------------------------------------------------------------------------------------
+Attribute selector:-
+                   An attribute selector in CSS is used to select elements based on the presence or value of a specific attribute
+                   input[type="text"] {
+                     color: darkblue;
+                   }
+                   
+                   input[type="password"] {
+                     color: rgb(75, 3, 3);
+                   }

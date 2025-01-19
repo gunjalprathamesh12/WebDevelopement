@@ -44,3 +44,11 @@ div > input{
   background-color: darkgray;
   color: darkblue;
 }
+
+input[type="text"] {
+  color: darkblue;
+}
+
+input[type="password"] {
+  color: rgb(75, 3, 3);
+}
