@@ -40,3 +40,13 @@ Attribute selector:-
                    input[type="password"] {
                      color: rgb(75, 3, 3);
                    }
+
+-----------------------------------------------------------------------------------
+Pseudo class:- 
+              pseudo class is a special keyword which is  added to a selector
+              ex:- element:selector or pseudo class
+
+Pseudo elements:-
+                 pseudo elements are used to change the css of the particular part of the element.
+                 ex:-::firstletter
+                      ::first line
