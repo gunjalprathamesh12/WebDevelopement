@@ -10,24 +10,37 @@ h1 {
   color: #b92b27;
 }
 
-#login{
-    background-color: white;
+#login {
+  background-color: white;
 }
-#signup{
-    background-color: #b92b27 ;
-    color: white;
+#signup {
+  background-color: #b92b27;
+  color: white;
 }
 
-.upvote{
+.upvote {
   background-color: green;
   color: aliceblue;
 }
 
-.post a{
+.post a {
   color: purple;
   background-color: yellow;
 }
 
-nav ul li a{
+nav ul li a {
   color: hotpink;
+}
+
+p + h3 {
+  text-decoration: underline;
+}
+.upvote + button {
+  background-color: cornflowerblue;
+  color: darkblue;
+}
+
+div > input{
+  background-color: darkgray;
+  color: darkblue;
 }

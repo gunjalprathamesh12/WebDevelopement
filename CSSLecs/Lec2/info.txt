@@ -16,3 +16,17 @@ Decendent Selector:-
 
                     example
                     nav ul li a{  color: hotpink;   }
+
+-----------------------------------------------------------------------------------
+Sibling Combinator:-
+                   when we want to use multiple selectors into or program then we use combinators to combine them
+                   like + is a combinator
+
+Child Combinator :- 
+                   A child combinator in CSS is used to select elements that are direct children of a specified element. It is represented by the > symbol.
+
+                    /* Child combinator */
+        div > p {
+            color: red;
+        }
+        
