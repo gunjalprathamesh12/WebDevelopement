@@ -1,5 +1,5 @@
 * {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Courier New";
   /* background-color: brown; */
 }
 
@@ -8,4 +8,12 @@ h3 {
 }
 h1 {
   color: #b92b27;
+}
+
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27 ;
+    color: white;
 }

@@ -4,6 +4,9 @@ Universal Selectors-
                     Selectors in CSS are used to target HTML elements so that you can apply styles to them. They help you specify which elements you want to style. For example:
 
                     * (Universal Selector): Selects all elements.
-                    p (Type Selector): Selects all <p> elements.
+
+                    p (Type Selector/ Element Selector): Selects all <p> elements.
+
                     .className (Class Selector): Selects all elements with the class className.
+
                     #idName (ID Selector): Selects the element with the ID idName.
