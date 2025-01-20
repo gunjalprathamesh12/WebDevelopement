@@ -1,5 +1,5 @@
 div {
-  height: 500px;
+  height: 200px;
   width: 500px;
   background-color: burlywood;
 
@@ -15,7 +15,9 @@ div {
   border-top-style: dashed;
 
   /* border-radius: 50%; */
-  border-radius: 10% 30% 50% 70%;
+  border-top-right-radius: 10% 30% 50% 70%;
+  padding-top: 10px;
+  padding-right: 10px;
 }
 
 h1 {
@@ -29,4 +31,14 @@ h1 {
   border-left-color: blue;
   border-left-style: dashed;
   border-radius: 25px;
+}
+
+button{
+  border: solid 2px black;
+  border-radius: 10px;
+  /* padding-left: 25px;
+  padding-right: 25px; */
+  padding: 25px,25px;
+  background-color: yellow;
+
 }
