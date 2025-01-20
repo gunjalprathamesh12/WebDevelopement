@@ -52,3 +52,16 @@ input[type="text"] {
 input[type="password"] {
   color: rgb(75, 3, 3);
 }
+
+h1::first-letter {
+  color: rgb(8, 70, 89);
+  font-size: 2em;
+}
+
+p::first-line{
+  color: rosybrown;
+}
+
+p::selection{
+  background-color: rgb(255, 8, 8);
+}
