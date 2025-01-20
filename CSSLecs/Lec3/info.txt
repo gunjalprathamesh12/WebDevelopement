@@ -26,3 +26,7 @@ Box Model in css:-
                    border-right
                    border-top
                    border-bottom
+                   and etc
+
+Border Radius:-
+               
