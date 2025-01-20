@@ -1,0 +1,26 @@
+div {
+  height: 200px;
+  width: 500px;
+  background-color: burlywood;
+
+  /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+
+  /* border shorthand */
+  border: 2px solid rgb(135, 91, 24);
+
+  border-top-color: blue;
+  border-top-style: dashed;
+}
+
+h1 {
+  /* border-width: 2px;
+  border-style: dashed;
+  border-color: magenta; */
+
+  /* border shorthand */
+  border: 2px solid orangered;
+  border-left-color: blue;
+  border-left-style: dashed;
+}

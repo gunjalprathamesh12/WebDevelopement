@@ -1,0 +1,28 @@
+Box Model in css:-
+                  Everything in CSS has a box around it, and understanding these boxes is key to being able to create more complex layouts with CSS, or to align items with other items.
+
+1 Height & width:-
+                  In the CSS box model, the height and width attributes are used to set the height and width of an element's content area. Here's a simple explanation:
+
+                  width: Sets the width of the content area of an element.
+                  height: Sets the height of the content area of an element
+
+2 Border        :-
+                  The border attribute in CSS is used to define the border around an element. It consists of three main properties:
+
+                  border-width: Specifies the thickness of the border.
+                  border-style: Specifies the style of the border (e.g., solid, dashed, dotted).
+                  border-color: Specifies the color of the border.
+
+                  we can use above three atrributes in a single line called as Border ShortHand
+                  ex:-
+                      div{
+                        border: 2px soild blue
+                      }
+    
+    Border sides :- we cam aslo control indivisual side of our border 
+                   
+                   border-left
+                   border-right
+                   border-top
+                   border-bottom

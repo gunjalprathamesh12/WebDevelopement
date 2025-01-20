@@ -1,4 +1,4 @@
-Universal Selectors-
+Selectors-
                     Selectors are ued to select the group of elements or any html elements and apply styles on then thats why they are used.
 
                     Selectors in CSS are used to target HTML elements so that you can apply styles to them. They help you specify which elements you want to style. For example:
