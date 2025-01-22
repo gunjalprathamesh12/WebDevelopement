@@ -1,0 +1,12 @@
+#outer {
+  height: 800px;
+  width: 400px;
+  border: solid 2px black;
+  background-color: red;
+  font-size: 20px;
+}
+#inner {
+  background-color: aqua;
+  font-size: 4em;
+  padding: 1em;
+}
