@@ -47,4 +47,3 @@ transition-timing-function: initial;
 transition-timing-function: revert;
 transition-timing-function: revert-layer;
 transition-timing-function: unset;
-
