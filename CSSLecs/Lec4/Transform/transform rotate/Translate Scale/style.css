@@ -1,0 +1,30 @@
+section {
+  margin-top: 100px;
+}
+
+div {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: greenyellow;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+div:nth-of-type(2n) {
+  background-color: yellow;
+}
+div:nth-of-type(3n) {
+  background-color: rgb(96, 96, 6);
+}
+
+#one {
+  transform: rotate(-90deg);
+}
+#two {
+  transform: rotate(45deg);
+  transform: translate(100px, 100px);
+}
+#three {
+  transform: translateX(100px);
+}
