@@ -1,4 +1,4 @@
-Html stands for Hyper Text Markup Language 
+Html stands for Hyper Text Markup Language
 MARKUP-
         Markup tells us about the structure of websites its formating
 --------------------------------------------------------------------------
