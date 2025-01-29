@@ -17,4 +17,12 @@ Flex Direction:-
 ____________________________________________________________________________________
 Justify Content:-
                   The justify-content property in CSS is used to align the flex items along the main axis of the flex container. It helps distribute the space between and around the flex items
+____________________________________________________________________________
+Flex Wrap:-      
+                The flex-wrap property in CSS is used to control whether the flex items should wrap onto multiple lines or stay on a single line within a flex container. It helps manage the layout when there are too many items to fit in one line.
+                 
+                 #container {
+                 display: flex;
+                 flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+               }
                   
