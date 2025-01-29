@@ -5,4 +5,16 @@ FlexBox:-
           it also helps us to make our webSite Responsive
 -------------------------------------------------------------------------------------
 Display Flex:-
-              
+          The display: flex property in CSS is used to create a flexible layout structure
+_____________________________________________________________________________________
+Flex Direction:- 
+                   we can do flex in the following directions
+                  /* flex-direction: row; */
+                  /* flex-direction: column; */
+                  /* flex-direction: column-reverse; */
+                  /* flex-direction: row-reverse; */
+
+____________________________________________________________________________________
+Justify Content:-
+                  The justify-content property in CSS is used to align the flex items along the main axis of the flex container. It helps distribute the space between and around the flex items
+                  
