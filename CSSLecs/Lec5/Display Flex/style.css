@@ -1,0 +1,11 @@
+#d1,
+#d2,
+#d3 {
+  background-color: rgb(55, 99, 55);
+  height: 200px;
+  width: 200px;
+  color: red;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
