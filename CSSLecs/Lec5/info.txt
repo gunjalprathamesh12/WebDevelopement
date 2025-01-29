@@ -1,0 +1,5 @@
+FlexBox:-
+          Flexbox is a type of layout which is ues to arrange elements items into the form of rows and columns.
+          t provides a more efficient way to align and distribute space among items in a container, even when their size is unknown or dynamic. Flexbox is particularly useful for creating responsive web designs.
+
+          it also helps us to make our webSite Responsive
