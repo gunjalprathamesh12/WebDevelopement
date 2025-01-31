@@ -1,0 +1,6 @@
+Grids in CSS:-
+              CSS Grid Layout, or simply Grid, is a powerful layout system in CSS that allows you to create complex, responsive web layouts with ease. It provides a two-dimensional grid-based layout system, meaning you can control both rows and columns.
+
+              Define rows and columns with grid-template-rows and grid-template-columns.
+              Place items precisely within the grid using grid-row and grid-column.
+              Create gaps between rows and columns with grid-gap.
