@@ -12,7 +12,6 @@
   animation-name: widthanimate;
 }
 
-
 @keyframes widthanimate {
   from {
     width: 10px;
@@ -37,5 +36,27 @@
   }
   to {
     background-attachment: bisque;
+  }
+}
+
+.name {
+  height: 100px;
+  width: 200px;
+  background-color: hotpink;
+  color: black;
+  animation-name: nanimation;
+  animation-duration: 2s;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes nanimation {
+  from {
+    font-size: 1em;
+    height: 10px;
+  }
+  to {
+    font-size: 1.5em;
+    height: 50px;
   }
 }
