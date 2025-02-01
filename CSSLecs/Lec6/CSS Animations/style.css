@@ -1,0 +1,41 @@
+.box {
+  width: 300px;
+  height: 100px;
+  background-color: pink;
+  animation-name: fanimation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  transition-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: coloranimation;
+  animation-name: widthanimate;
+}
+
+
+@keyframes widthanimate {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 400px;
+  }
+}
+
+@keyframes fanimation {
+  form {
+    font-size: 20px;
+  }
+  to {
+    font-size: 40px;
+  }
+}
+
+@keyframes coloranimation {
+  from {
+    background-color: greenyellow;
+  }
+  to {
+    background-attachment: bisque;
+  }
+}

@@ -1,0 +1,4 @@
+for adding css Animations we use @keyframe animationname{
+                                                           code
+
+                                                        }
