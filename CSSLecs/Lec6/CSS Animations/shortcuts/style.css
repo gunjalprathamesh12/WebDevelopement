@@ -1,0 +1,17 @@
+h1 {
+  height: 100px;
+  width: 200px;
+  background-color: greenyellow;
+  animation: widthanimate 3s ease-in 0s infinite normal forwards;
+}
+
+@keyframes widthanimate {
+  from {
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+  }
+  to {
+    width: 200px;
+    background-color: tomato;
+  }
+}

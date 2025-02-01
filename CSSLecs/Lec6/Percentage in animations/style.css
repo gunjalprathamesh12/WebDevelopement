@@ -1,0 +1,22 @@
+/*here we can use percentages like 0% for starting pos 50% for mid pos or 100%  for end position*/
+h1 {
+  background-color: hotpink;
+  height: 100px;
+  width: 200px;
+  color: aqua;
+  animation-name: percenatgeanimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes percenatgeanimation {
+  0% {
+    background-color: greenyellow;
+  }
+  50% {
+    background-color: tomato;
+  }
+  100% {
+    background-color: black;
+  }
+}
