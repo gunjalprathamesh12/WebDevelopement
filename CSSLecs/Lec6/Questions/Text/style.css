@@ -1,0 +1,20 @@
+h1 {
+  font-family: "Times New Roman";
+  font-size: 1.5em;
+  animation-name: trans;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes trans {
+  from {
+
+      opacity: 0;
+
+  }
+  to {
+    
+      opacity: 5;
+    
+  }
+}
