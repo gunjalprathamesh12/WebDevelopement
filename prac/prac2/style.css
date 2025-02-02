@@ -1,0 +1,11 @@
+body {
+    background-image: url("macleran.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    rotate: left;
+  }
+
+  h1{
+    color: yellow;
+  }
