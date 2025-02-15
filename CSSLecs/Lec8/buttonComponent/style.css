@@ -1,4 +1,4 @@
-.container{
+.container-fluid{
     background-color: antiquewhite;
 }
 
@@ -6,3 +6,7 @@
 {
     background-color: pink;
 } */
+
+#dange{
+    background-color: royalblue;
+}
