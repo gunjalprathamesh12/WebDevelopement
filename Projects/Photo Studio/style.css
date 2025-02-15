@@ -18,9 +18,9 @@
   left: 16px;
   line-height: 60px;
 }
-#gall {
-  margin-top: 100px;
-}
+
+
+
 .sidebar_menu {
   position: fixed;
   left: -300px;
@@ -29,20 +29,21 @@
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
   transition: all 0.3s linear;
-
 }
 
 .sidebar_menu .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: absolute;
   width: 100%;
   line-height: 60px;
   box-shadow: 0 2px 6px rgba(255, 255, 255, 0.5);
   height: 60px;
+  padding: 0 20px;
 }
 
 .sidebar_menu .logo a {
-  position: absolute;
-  left: 60px;
   color: white;
   text-decoration: none;
   font-size: 20px;
@@ -50,12 +51,10 @@
 }
 
 .sidebar_menu .btn_two {
-  color: grey;  
+  color: grey;
   font-size: 25px;
   line-height: 60px;
-  position: absolute;
-  left: 275px;
-  cursor: progress;
+  cursor: pointer;
 }
 
 .sidebar_menu .menu {
@@ -64,20 +63,26 @@
   top: 88px;
 }
 
+.sidebar_menu .menu ul {
+  list-style: none;
+}
+
 .sidebar_menu .menu li {
+  display: flex;
   align-items: center;
   margin-top: 6px;
   padding: 14px 20px;
 }
 
 .sidebar_menu .menu i,
-a {
+.sidebar_menu .menu a {
   color: white;
   text-decoration: none;
   font-size: 20px;
 }
+
 .sidebar_menu .menu i {
-  padding-right: 15px;
+  margin-right: 15px;
 }
 
 .sidebar_menu .social_media {
@@ -88,11 +93,16 @@ a {
   bottom: 40px;
 }
 
+.sidebar_menu .social_media ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
 .sidebar_menu .social_media i {
   color: white;
   opacity: 0.5;
-  padding: 0 5;
-  
+  padding: 0 5px;
 }
 
 #check {
@@ -116,14 +126,14 @@ a {
   transform: scale(1.1);
 }
 
-#check:checked ~ .sidebar_menu{
-
-left: 0;
+#check:checked ~ .sidebar_menu {
+  left: 0;
 }
 
-.check:checked ~ .btn_one i{
-    opacity: 0;
+#check:checked ~ .btn_one i {
+  opacity: 0;
 }
-.check:checked ~ .sidebar_menu .btn_two i{
-    opacity: 1;
+
+#check:checked ~ .sidebar_menu .btn_two i {
+  opacity: 1;
 }
