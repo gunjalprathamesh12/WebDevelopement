@@ -48,66 +48,79 @@ a {
   justify-content: center;
   height: 100px;
   padding: 0.5rem 0.75rem;
-
 }
 
-.nav-option{
-    line-height: 2.5rem;/*difference between teo lines*/
-    opacity: 0.7;/*setting opacity to 0.7 and increase after hover*/
-    padding: 0.5rem 0.75rem;
-
+.nav-option {
+  line-height: 2.5rem; /*difference between teo lines*/
+  opacity: 0.7; /*setting opacity to 0.7 and increase after hover*/
+  padding: 0.5rem 0.75rem;
 }
 
 /*Add hover effect*/
-.nav-option:hover{
-  
-    opacity: 1;
+.nav-option:hover {
+  opacity: 1;
 }
 
 /* sizing the icons*/
-.nav-optio i{
-    font-size: 1.25rem;/*setting fonnt size*/
+.nav-optio i {
+  font-size: 1.25rem; /*setting fonnt size*/
 }
 /*Sizing the anchor tags*/
-.nav-option a{
-    font-size: 1rem;
-    margin-left: 1rem;
-} 
+.nav-option a {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
 
 /*Library styline*/
-.library{
-    background-color: #121212;
-    border-radius: 1rem;
-    height: 100%;
-    margin-top: 0.5rem;
-    padding: 0.5rem 0.75rem;
-
+.library {
+  background-color: #121212;
+  border-radius: 1rem;
+  height: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
 }
 
 /*flexing items*/
-.options{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.library-option img{
-    height: 1.25rem;
-    width: 1.25rem;
+.library-option img {
+  height: 1.25rem;
+  width: 1.25rem;
 }
 
 /*stying icond + ->*/
-.icons{
-    font-size: 1.25rem;
-    
-    display: flex;
+.icons {
+  font-size: 1.25rem;
+
+  display: flex;
 }
 
-.icons i{
-    opacity: 0.7;
-    margin-right: 1rem;
+.icons i {
+  opacity: 0.7;
+  margin-right: 1rem;
 }
 /*iCONS HOVER EFFECT*/
-.icons i:hover{
-    opacity: 1;
+.icons i:hover {
+  opacity: 1;
+}
+
+/*Styling to BOX*/
+.box {
+  background-color: #232323;
+  height: 8rem;
+  border-radius: 0.75rem;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 1rem 1.25rem;
+}
+.box-paragraph1 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.box-paragraph2 {
+  font-size: 0.75rem;
+  opacity: 0.9;
 }
