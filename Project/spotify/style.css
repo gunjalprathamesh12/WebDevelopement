@@ -72,3 +72,25 @@ a {
     font-size: 1rem;
     margin-left: 1rem;
 } 
+
+/*Library styline*/
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+
+}
+
+/*flexing items*/
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.library-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
