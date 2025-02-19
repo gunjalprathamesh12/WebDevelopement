@@ -9,6 +9,7 @@ body {
 .main {
   display: flex;
   height: 100vh;
+  padding: 0.5rem;
 }
 
 .sidebar {
@@ -93,4 +94,20 @@ a {
 .library-option img{
     height: 1.25rem;
     width: 1.25rem;
+}
+
+/*stying icond + ->*/
+.icons{
+    font-size: 1.25rem;
+    
+    display: flex;
+}
+
+.icons i{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+/*iCONS HOVER EFFECT*/
+.icons i:hover{
+    opacity: 1;
 }
