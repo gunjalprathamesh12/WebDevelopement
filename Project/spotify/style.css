@@ -6,30 +6,69 @@ body {
   overflow: hidden;
 }
 
-.main{
-    display: flex;
-    height: 100vh;  
+.main {
+  display: flex;
+  height: 100vh;
 }
 
-.sidebar{
-    background-color: #121212;
-    width: 340px;
-    border-radius: 1rem;  
-        /* 1 rem = 16 px */
+.sidebar {
+  background-color: #0a5829;
+  width: 340px;
+  border-radius: 1rem;
+  /* 1 rem = 16 px */
 }
 
-.main-content{
-        background-color: #121212;
-        flex: 1;
-        border-radius: 1rem;  
-        overflow: auto;
+.main-content {
+  background-color: #121212;
+  flex: 1;
+  border-radius: 1rem;
+  overflow: auto;
+}
+
+.music-player {
+  background-color: #0000;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 72px;
+}
+
+/* anchor tag styles navbar */
+a {
+  text-decoration: none;
+  color: white;
+}
+/* nav bar styling */
+.nav {
+  background-color: #121212; /*setting up the background color for nav*/
+  border-radius: 1rem;
+  display: flex; /*flex property*/
+  flex-direction: column; /*palced vas into the form of cloumn*/
+  justify-content: center;
+  height: 100px;
+  padding: 0.5rem 0.75rem;
 
 }
 
-.music-player{
-    background-color: #0000;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    height: 72px;
+.nav-option{
+    line-height: 2.5rem;/*difference between teo lines*/
+    opacity: 0.7;/*setting opacity to 0.7 and increase after hover*/
+    padding: 0.5rem 0.75rem;
+
 }
+
+/*Add hover effect*/
+.nav-option:hover{
+  
+    opacity: 1;
+}
+
+/* sizing the icons*/
+.nav-optio i{
+    font-size: 1.25rem;/*setting fonnt size*/
+}
+/*Sizing the anchor tags*/
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+} 
