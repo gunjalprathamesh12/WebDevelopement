@@ -113,8 +113,8 @@ a {
   background-color: #232323;
   height: 8rem;
   border-radius: 0.75rem;
-  margin: 0.5rem 0 0.5rem 0;
-  padding: 1rem 1.25rem;
+  margin: 0.75rem 0 1.75rem 0;
+  padding: 0.75rem 1rem;
 }
 .box-paragraph1 {
   font-size: 1rem;
@@ -123,4 +123,16 @@ a {
 .box-paragraph2 {
   font-size: 0.75rem;
   opacity: 0.9;
+}
+
+.badge{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    color: black;
+    width: fit-content;
 }
