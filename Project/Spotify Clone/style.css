@@ -338,3 +338,18 @@ h2 {
   background-color: rgba(170, 165, 165, 0.367);
   border-radius: 1rem;
 }
+
+/*Footer styling*/
+.footer{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+.line{
+  width: 90%;
+  height: 50%;
+  border-top: 1px solid white;
+  opacity: 0.5;
+}
