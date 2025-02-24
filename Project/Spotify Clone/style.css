@@ -26,7 +26,7 @@ body {
   position: fixed;
   top: 60px;
   left: 2px;
-  height: 76.7vh;
+  height: 80.7vh;
   width: 409px;
   background-color: #121212;
   border-radius: 12px;
@@ -35,7 +35,7 @@ body {
 
 .content {
   background-color: #121212;
-  height: 76.7vh;
+  height: 80.7vh;
   position: fixed;
   top: 60px;
   left: 416px;
@@ -51,7 +51,7 @@ body {
   bottom: 0;
 
   height: 80px;
-  width: 100vw;
+  width: 100%;
 }
 
 a {
@@ -340,16 +340,38 @@ h2 {
 }
 
 /*Footer styling*/
-.footer{
+.footer {
   height: 300px;
   display: flex;
   align-items: center;
-  justify-content: center ;
+  justify-content: center;
 }
 
-.line{
-  width: 90%;
-  height: 50%;
+.line {
+  width: 25%;
+  height: 100%;
   border-top: 1px solid white;
   opacity: 0.5;
+}
+
+.music-player {
+  display: flex;
+}
+
+.album {
+  width: 25%;
+  background-color: violet;
+}
+
+.controll {
+  width: 25%;
+  background-color: blueviolet;
+}
+
+.player {
+  width: 50%;
+}
+
+.player-control-icon {
+  height: 1rem;
 }
