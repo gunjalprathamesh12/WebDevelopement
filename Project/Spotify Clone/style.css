@@ -26,6 +26,7 @@ body {
   margin-top: 1.5rem;
   margin-left: 16rem;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .badge._nav{
@@ -473,8 +474,6 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-.player-side-control {
-}
 
 .player-side-control:hover {
   opacity: 1;
