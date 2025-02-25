@@ -22,6 +22,24 @@ body {
   height: 120px;
 }
 
+.usericon{
+  margin-top: 1.5rem;
+  margin-left: 16rem;
+  font-size: 25px;
+}
+
+.badge._nav{
+  margin-top: 1rem;
+}
+
+.badge._nav._nav1{
+margin-top: 1rem;
+}
+
+.navbar input{
+  margin-top: 1rem;
+}
+
 .side-bar {
   position: fixed;
   top: 60px;
