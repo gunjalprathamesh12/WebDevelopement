@@ -1,8 +1,10 @@
-var a=10;
+var a = 10;
 console.log(a);
-let b=20;
+let b = 20;
 console.log(b);
-const c=30;
+const c = 30;
 console.log(c);
-/*Variables are used to store the value*/
 
+var name = "Prathamesh";
+console.log(name);
+/*Variables are used to store the value*/
