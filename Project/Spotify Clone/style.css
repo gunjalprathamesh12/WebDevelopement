@@ -49,9 +49,10 @@ body {
   opacity: 1;
 }
 
+
 .usericon {
-  margin-top: 1.5rem;
-  margin-left: 16rem;
+  margin-top: 1rem;
+  margin-left: 11rem;
   font-size: 25px;  
   cursor: pointer;
 }
