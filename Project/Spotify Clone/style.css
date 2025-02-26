@@ -22,6 +22,28 @@ body {
   flex: 1;
   height: 120px;
 }
+/*Spotify image*/
+.navbar img {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 1rem;
+  left: 1rem;
+}
+
+.btnhome {
+  font-size: 24px; /* Example size */
+  margin-left: 40px; /* Example margin */
+  cursor: pointer; /* Example cursor */
+  margin-top: 1.2rem;
+  opacity: 0.5;
+}
+
+.btnhome:hover {
+  opacity: 1;
+}
 
 .usericon {
   margin-top: 1.5rem;
