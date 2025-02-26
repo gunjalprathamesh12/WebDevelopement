@@ -17,10 +17,10 @@ body {
 }
 
 .navbar {
-  /* position: absolute; */
-  background-color: transparent;
-  flex: 1;
-  height: 120px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* Ensure items are centered vertically */
+  /* Other existing styles */
 }
 /*Spotify image*/
 .navbar img {
@@ -49,12 +49,22 @@ body {
   opacity: 1;
 }
 
-.usericon {
+.bell, .usericon {
   margin-top: 1rem;
-  margin-left: 11rem;
   font-size: 25px;
   cursor: pointer;
+  margin-left: 1rem; /* Adjust margin to control spacing between icons */
 }
+
+.bell {
+  margin-left: 9rem; /* Push the bell icon to the right */
+  font-size: 1.5rem;
+}
+
+.usericon {
+  margin-left: 1rem; /* Adjust margin to control spacing between bell and user icon */
+}
+
 
 .badge._nav {
   margin-top: 1rem;
