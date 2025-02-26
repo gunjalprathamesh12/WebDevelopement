@@ -13,6 +13,7 @@ body {
 
 .main {
   display: flex;
+  /* width: 100% ; */
 }
 
 .navbar {
@@ -22,22 +23,22 @@ body {
   height: 120px;
 }
 
-.usericon{
+.usericon {
   margin-top: 1.5rem;
   margin-left: 16rem;
   font-size: 25px;
   cursor: pointer;
 }
 
-.badge._nav{
+.badge._nav {
   margin-top: 1rem;
 }
 
-.badge._nav._nav1{
-margin-top: 1rem;
+.badge._nav._nav1 {
+  margin-top: 1rem;
 }
 
-.navbar input{
+.navbar input {
   margin-top: 1rem;
 }
 
@@ -455,10 +456,13 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 75px;
-  width: 50px;
+  height: 56px;
+  width: 55px;
+  top: 15px;
+  position: relative;
   object-fit: cover;
   margin: 0.5rem 0.5rem 0.5rem 2rem;
+  border-radius: 1rem;
 }
 
 .player-side-control {
@@ -474,7 +478,6 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-
 .player-side-control:hover {
   opacity: 1;
 }
@@ -482,4 +485,33 @@ h2 {
 .set {
   align-items: center;
   margin-right: 1rem;
+}
+
+.album {
+  display: flex;
+}
+
+.parag {
+  justify-content: center;
+  align-items: center;
+}
+
+#p1 {
+  font-size: 1.5rem;
+  position: relative;
+  margin-top: 1rem;
+  left: 1rem;
+}
+
+#p1:hover {
+  text-decoration: underline;
+}
+#p2:hover {
+  text-decoration: underline;
+}
+#p2 {
+  font-size: 1rem;
+  position: relative;
+  top: -1rem;
+  left: 1rem;
 }
