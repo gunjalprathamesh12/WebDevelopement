@@ -33,6 +33,10 @@ body {
   left: 1rem;
 }
 
+.navbar img:hover {
+  cursor: pointer;
+}
+
 .btnhome {
   font-size: 24px; /* Example size */
   margin-left: 40px; /* Example margin */
@@ -48,7 +52,7 @@ body {
 .usericon {
   margin-top: 1.5rem;
   margin-left: 16rem;
-  font-size: 25px;
+  font-size: 25px;  
   cursor: pointer;
 }
 
