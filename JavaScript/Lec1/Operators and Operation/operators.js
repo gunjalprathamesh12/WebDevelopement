@@ -11,3 +11,6 @@ console.log(mul);
 
 var div = a / b;
 console.log(div);
+
+var mod = a % b;
+console.log(mod);   
