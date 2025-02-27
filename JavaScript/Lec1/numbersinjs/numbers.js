@@ -10,3 +10,4 @@ var str="Prathamesh";
 console.log(typeof str);
 var bool=true;
 console.log(typeof bool);
+
