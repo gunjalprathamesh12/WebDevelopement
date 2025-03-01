@@ -7,3 +7,5 @@ console.log(typeof a);
 
 console.log(isNaN(a));
 console.log(isNaN(10));
+
+
