@@ -121,12 +121,12 @@ body {
 
 .create h3 {
   margin: 0; /* Remove default margin */
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .bell-icon {
-  margin-left: 10px;
+  margin-left: 20px;
   height: 50px;
   width: 50px;
   display: flex;
@@ -135,7 +135,7 @@ body {
   border-radius: 90px; /* Adjusted border radius */
   background-color: #1d1d1d;
   color: white; /* Ensure text color is visible */
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold;
   border: none;
   cursor: pointer;
@@ -158,7 +158,7 @@ body {
 }
 
 .profile img {
-  margin-left: 60px;
+  margin-left: 50px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
