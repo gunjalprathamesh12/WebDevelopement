@@ -8,17 +8,50 @@ body {
   font-weight: 300;
 }
 
+/*--------------------Navbar Styling--------------------------------------*/
+
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #1F1F1F;
   height: 56px;
+  padding: 0 16px;
+  background-color: #202020;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
 }
+
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon{
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.ytlogo {
+  height: 24px;
+  margin-left: 22px;
+}
+
+.in{
+  font-size: 1rem;
+}
+
+.searchbar{
+  margin-left: 60px;
+  height: 2rem;
+}
+
+
 
 .sidebar {
   background-color: brown;
