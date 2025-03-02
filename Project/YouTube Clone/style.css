@@ -15,22 +15,21 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 56px;
+  height: 70px;
   padding: 0 16px;
-  background-color: #202020;
+  background-color: #282828;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
 }
 
-
 .left-section {
   display: flex;
   align-items: center;
 }
 
-.menu-icon{
+.menu-icon {
   font-size: 2rem;
   color: white;
   cursor: pointer;
@@ -42,16 +41,106 @@ body {
   margin-left: 22px;
 }
 
-.in{
+.in {
   font-size: 1rem;
 }
 
-.searchbar{
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 60px;
-  height: 2rem;
 }
 
+.searchbar {
+  margin-left: 60px;
+  height: 3rem;
+  border-radius: 20px;
+  background-color: #121212;
+  text-align: left;
+  width: 700px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 0 0 0 32px;
+  padding: 0 4px 0 16px;
+  font-weight: bold;
+}
 
+.voice-logo {
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #1d1d1d;
+  opacity: 0.7;
+}
+
+.voice-logo:hover {
+  opacity: 1;
+}
+
+.voice {
+  font-size: 1.8rem;
+}
+.voice:hover {
+  font-size: 1.8rem;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.create {
+  margin-left: 100px;
+  height: 50px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Better spacing between icon and text */
+  border-radius: 12px; /* Adjusted border radius */
+  background-color: #1d1d1d;
+  color: white; /* Ensure text color is visible */
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.create:hover {
+  opacity: 1;
+}
+
+.create h3 {
+  margin: 0; /* Remove default margin */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bell-icon {
+  margin-left: 40px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 90px; /* Adjusted border radius */
+  background-color: #1d1d1d;
+  color: white; /* Ensure text color is visible */
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.bell-icon:hover {
+  opacity: 1;
+}
+
+/*--------------------Sidebar Styling--------------------------------------*/
 
 .sidebar {
   background-color: brown;
