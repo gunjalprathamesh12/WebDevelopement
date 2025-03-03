@@ -123,6 +123,7 @@ body {
   margin: 0; /* Remove default margin */
   font-size: 25px;
   font-weight: bold;
+  font: 100;
 }
 
 .bell-icon {
