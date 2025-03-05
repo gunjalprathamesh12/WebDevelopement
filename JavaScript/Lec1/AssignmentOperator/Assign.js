@@ -10,3 +10,4 @@ console.log(b);
 let c = 10;
 c *= 2;
 console.log(c);
+
