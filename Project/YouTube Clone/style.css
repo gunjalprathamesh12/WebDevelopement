@@ -33,7 +33,7 @@ body {
   font-size: 2rem;
   color: white;
   cursor: pointer;
-  margin-left: 8px;
+  margin-left: 28px;
 }
 
 .ytlogo {
@@ -333,4 +333,9 @@ body {
   padding-left: 2rem;
   padding-top: 1rem;
   left: 1rem;
+}
+
+
+.card1{
+  margin-left: 100px;
 }
