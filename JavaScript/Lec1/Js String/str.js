@@ -12,4 +12,4 @@ console.log(a[9]);
 console.log(a[10]); // a[10] is undefined
 
 console.log(a.charAt(0));
-console.log(a.lenght());
+console.log(a.lenght);
