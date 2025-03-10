@@ -45,3 +45,10 @@ console.log(r&s);
 console.log(r|s);
 console.log(~r);
 console.log(r^s);
+
+
+let aaa=5;
+let aa="5";
+console.log(aaa==aa);
+console.log(aaa===aa);
+console.log(aaa!=aa);
