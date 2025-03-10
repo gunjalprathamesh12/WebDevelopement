@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popcorn</title>
+  </head>
+  <body>
+    <label for="size">enter size</label>
+    <input type="text" id="siz" placeholder="popcorn packet size" />
+    <button onclick="claculate()">price</button>
+    <script>
+      function claculate() {
+        let size = document.getElementById("siz").value.trim().toLowerCase();
+
+        if (size == "xl") {
+          window.alert("price is 250 rupees");
+        } else if (size == "l") {
+          document.write("price is 200 rupees");
+        } else if (size == "m") {
+          document.write("price is 150 rupees");
+        } else if (size == "s") {
+          document.write("price is 100 rupees");
+        }
+      }
+    </script>
+  </body>
+</html>
