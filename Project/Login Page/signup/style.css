@@ -1,5 +1,5 @@
 body {
-  background: url("assets/SW\ \(2\).jpg") no-repeat center center fixed;
+  background: url("SW\ \(2\).jpg") no-repeat center center fixed;
   background-size: cover;
   font-family: "Poppins", sans-serif;
   height: 100vh;
@@ -31,7 +31,7 @@ form {
   justify-content: center;
   border-radius: 90px;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 60vh;
+  height: 70vh;
   width: 600px;
   margin: auto;
   color: white;
@@ -43,7 +43,9 @@ form:hover {
   border: 1px solid black;
 }
 
-.uname {
+.uname,
+.email,
+.mob {
   margin-left: -250px;
   font-size: 30px;
 }
@@ -53,8 +55,14 @@ form:hover {
   font-size: 30px;
 }
 
+.em{
+    margin-left: -310px;
+}
+
 .uip,
-.pip {
+.pip,
+.eip,
+.mip {
   appearance: none;
   background: transparent;
   border-radius: 90px;
@@ -67,6 +75,12 @@ form:hover {
   background-color: rgb(19, 19, 17);
 }
 .pip:hover {
+  background-color: rgb(19, 19, 17);
+}
+.eip:hover {
+  background-color: rgb(19, 19, 17);
+}
+.mip:hover {
   background-color: rgb(19, 19, 17);
 }
 
@@ -88,6 +102,11 @@ button {
   padding: 10px 20px;
   cursor: pointer;
   font-size: 20px;
+}
+
+.signup{
+    background-color: white;
+    color: black;
 }
 
 button:hover {
