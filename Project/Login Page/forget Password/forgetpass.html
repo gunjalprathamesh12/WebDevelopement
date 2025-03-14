@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Form</title>
+    <title>Forget Password</title>
     <link rel="stylesheet" href="forgetpass.css" />
     <link
       rel="stylesheet"
@@ -16,29 +16,36 @@
   <body>
     <div class="container">
       <form action="#" id="form" onsubmit="submit_form(event)">
-        <h2>Login</h2>
+        <h2>Reset Password</h2>
         <div class="form-group">
-          <input type="email" id="email" placeholder="Email" required />
+          <input type="email" id="email" placeholder="Enter recovery mail" required />
           <i class="fa-solid fa-envelope"></i>
         </div>
         <div class="form-group">
           <input
-            type="password"
+            type="number"
             id="password"
-            placeholder="Password"
+            placeholder="Enter OTP"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder="New password" required />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            id="email"
+            placeholder="Confirm Password"
             required
           />
         </div>
         <p>
           <input type="checkbox" id="remember-me" />
           <label for="remember-me">Remember me</label>
-          <a href="forget_pass/forget-password.html">Forgot Password?</a>
         </p>
-        <button type="submit">Login</button>
-        <p>
-          Don't have an account?
-          <a href="signup/signup.html">Sign up</a>
-        </p>
+        <button type="submit">Save</button>
+     
       </form>
     </div>
 
