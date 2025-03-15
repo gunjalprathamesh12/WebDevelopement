@@ -10,6 +10,7 @@ body {
   height: 100vh; /* Ensure full coverage */
   margin: 0; /* Remove default margins */
   display: flex;
+  position: relative;
   padding: 0;
 }
 
@@ -30,7 +31,7 @@ body {
 
 .nav-logo h2 {
   color: white;
-  margin-left: 20px;
+  margin-left: 50px;
   font-size: 30px;
   display: flex;
   justify-content: space-between;
@@ -52,7 +53,7 @@ body {
   color: white;
   text-decoration: none;
   font-size: 20px;
-  margin: 0 20px; /* Add space on both sides of each link */
+  margin: 0 25px; /* Add space on both sides of each link */
   display: flex;
   justify-content: space-between;
 }
@@ -90,4 +91,52 @@ body {
 
 #modeToggle:hover {
   background: #666;
+}
+
+.home {
+  margin-top: 200px;
+  margin-left: 50px;
+  height: 30vh;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+.name h3 {
+  font-size: 25px;
+  color: white;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.name h2 {
+  font-size: 50px;
+  color: white;
+  margin-left: 20px;
+}
+
+.gradient-text2 {
+  background: linear-gradient(90deg, #a855f7, #e3e0ea);
+  /* Purple to Blue Gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(127, 86, 217, 0.4);
+}
+
+.intro {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ddd;
+}
+
+#intro-text {
+  margin: 0;
+  font-style: italic;
+  color: #f1f1f1;
 }
