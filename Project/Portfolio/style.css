@@ -544,3 +544,26 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
+
+.dark-mode {
+  background: linear-gradient(135deg, #ffffff, #e3e3e3); /* Light Mode */
+  color: black;
+}
+
+.dark-mode .body {
+  background: linear-gradient(135deg, #ffffff, #cccccc);
+  color: black;
+}
+
+.dark-mode .sections a {
+  color: black;
+}
+
+.dark-mode .myimg {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode #modeToggle {
+  background: black;
+  color: white;
+}
