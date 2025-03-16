@@ -36,9 +36,91 @@ body {
   box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
 }
 
+/* .nav-logo h2:hover{
+  background: linear-gradient(90deg, #a855f7, #e3e0ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+} */
 .nav-logo {
   margin-left: 50px;
 }
+
+/* @keyframes changeColors {
+  0% {
+    background: linear-gradient(90deg, #d946ef, #f0abfc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  10% {
+    background: linear-gradient(90deg, #c026d3, #e879f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  20% {
+    background: linear-gradient(90deg, #a855f7, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  30% {
+    background: linear-gradient(90deg, #9333ea, #b794f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  40% {
+    background: linear-gradient(90deg, #7c3aed, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  50% {
+    background: linear-gradient(90deg, #7e22ce, #9f67ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  60% {
+    background: linear-gradient(90deg, #6d28d9, #818cf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  70% {
+    background: linear-gradient(90deg, #5b21b6, #7377ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  80% {
+    background: linear-gradient(90deg, #4c1d95, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  90% {
+    background: linear-gradient(90deg, #d946ef, #e879f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  100% {
+    background: linear-gradient(90deg, #d946ef, #f0abfc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+.nav-logo h2 {
+  animation: changeColors 5s infinite ease-in-out;
+  font-weight: bold;
+}
+ */
 
 .sections a {
   color: white;
@@ -95,7 +177,7 @@ body {
 }
 
 .gradient-text2 {
-  background: linear-gradient(90deg, #a855f7, #e3e0ea);
+  background: linear-gradient(90deg, #a855f7, #a593cf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
