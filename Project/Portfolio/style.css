@@ -444,7 +444,7 @@ body {
 .contact-section {
   /* background: linear-gradient(135deg, #0d0d0d, #220b30); */
   background: linear-gradient(135deg, #0d0d0d, #220b30);
-
+  height: 92vh; /*Chnaged*/
   color: white;
   text-align: center;
   padding: 50px 20px;
@@ -520,8 +520,10 @@ body {
   font-size: 24px;
   margin: 0 10px;
   color: #8400ff;
+  /* color: #2e0897; */
   transition: color 0.3s, transform 0.3s;
 }
+
 
 .contact-socials a:hover {
   color: #e3e0ea;
@@ -534,7 +536,7 @@ body {
   background-color: #111;
   color: white;
   font-size: 14px;
-  margin-top: 130px; /* Pushes it to the bottom */
+  margin-top: 190px; /* Pushes it to the bottom */
   margin-bottom: auto;
 }
 
