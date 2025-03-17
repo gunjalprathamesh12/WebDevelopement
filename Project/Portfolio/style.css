@@ -525,8 +525,9 @@ body {
 }
 .contact-socials a:hover {
   color: #e3e0ea;
-  transform: scale(1.2);\
+  transform: scale(1.2);
 }
+
 
 .footer {
   text-align: center;
