@@ -523,8 +523,6 @@ body {
   /* color: #2e0897; */
   transition: color 0.3s, transform 0.3s;
 }
-
-
 .contact-socials a:hover {
   color: #e3e0ea;
   transform: scale(1.2);
