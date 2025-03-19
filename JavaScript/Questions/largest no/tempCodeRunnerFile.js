@@ -5,9 +5,3 @@ if (no % 10 === no2 % 10) {
 } else {
   console.log("not equal");
 }
-// Output: Equal
-
-
-let n1=999;
-console.log(n1%10);
-// Output: 9
