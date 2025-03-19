@@ -213,7 +213,9 @@ body {
   max-width: 600px;
   font-size: 18px;
   line-height: 1.6;
-  color: #bbb;
+  /* color: #bbb; */
+  color: #ebe8e8;
+
 }
 
 /* ✅ Social Icons */
