@@ -215,7 +215,6 @@ body {
   line-height: 1.6;
   /* color: #bbb; */
   color: #ebe8e8;
-
 }
 
 /* ✅ Social Icons */
@@ -460,7 +459,7 @@ body {
   font-size: 28px;
   margin-bottom: 10px;
   background: linear-gradient(90deg, #ffffff, #ffffff);
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
@@ -536,7 +535,7 @@ body {
   background-color: #111;
   color: white;
   font-size: 14px;
-  margin-top: 190px; /* Pushes it to the bottom */
+  margin-top: 140px; /* Pushes it to the bottom */
   margin-bottom: auto;
 }
 
@@ -651,4 +650,3 @@ body {
   background: black;
   color: white;
 }
-
