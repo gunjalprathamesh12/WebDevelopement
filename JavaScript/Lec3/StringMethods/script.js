@@ -7,3 +7,6 @@ let pass = prompt("Enter your password");
 let email= prompt("Enter your email");
 document.getElementById("pass").innerHTML=pass;
 document.getElementById("em").innerHTML=email;
+
+
+/*In Js String are immutable means once declared we cannot change it  */
