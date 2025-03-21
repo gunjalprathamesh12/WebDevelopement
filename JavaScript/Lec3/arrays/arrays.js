@@ -8,4 +8,4 @@ console.log(stud[4]);
 console.log(stud.length);
 
 console.log(stud.length - 1); //Accessing the last element of the array
-console.log(stud[stud.length - 1]);
+console.log(stud[stud.length - 1]);//Accessing the last element of the array
