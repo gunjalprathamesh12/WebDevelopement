@@ -9,4 +9,4 @@ console.log(arr.indexOf("Green"));
 console.log(arr.indexOf("red"));
 
 
-console.log("Hello WOrld")
+console.log("Hello WOrl")
