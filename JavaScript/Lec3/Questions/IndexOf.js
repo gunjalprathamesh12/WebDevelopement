@@ -9,3 +9,5 @@ console.log(arr.indexOf("red"));
 
 // Output:
 // [ 'Yellow', 'Red', 'Blue', 'Green' ]
+// 0
+// 1
