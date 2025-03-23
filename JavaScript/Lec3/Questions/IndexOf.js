@@ -6,4 +6,3 @@ console.log(arr.indexOf("Red"));
 console.log(arr.indexOf("Blue"));
 console.log(arr.indexOf("Green"));
 console.log(arr.indexOf("red"));
-
