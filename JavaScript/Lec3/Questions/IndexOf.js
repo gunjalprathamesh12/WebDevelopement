@@ -12,3 +12,6 @@ console.log(arr.indexOf("red"));
 // 0
 // 1
 
+
+
+
