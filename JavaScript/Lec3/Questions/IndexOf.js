@@ -11,3 +11,4 @@ console.log(arr.indexOf("red"));
 // [ 'Yellow', 'Red', 'Blue', 'Green' ]
 // 0
 // 1
+
