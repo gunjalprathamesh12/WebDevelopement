@@ -1,106 +1,47 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Online Compiler</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: #121212;
-            color: white;
-            font-family: Arial, sans-serif;
-            display: flex;
-            height: 100vh;
-        }
-        .sidebar {
-            width: 60px;
-            background: #1e1e1e;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-top: 20px;
-        }
-        .sidebar i {
-            color: white;
-            font-size: 24px;
-            margin: 20px 0;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-        .sidebar i:hover {
-            color: #00c8ff;
-        }
-        .container {
-            flex: 1;
-            display: flex;
-            flex-direction: row;
-        }
-        .editor-container {
-            flex: 1;
-            padding: 10px;
-            display: flex;
-            flex-direction: column;
-        }
-        textarea {
-            width: 100%;
-            height: 90%;
-            background: #282c34;
-            color: white;
-            border: none;
-            font-size: 16px;
-            padding: 10px;
-        }
-        button {
-            padding: 10px;
-            background: #00c8ff;
-            border: none;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-        button:hover {
-            background: #009acd;
-        }
-        .output-container {
-            flex: 1;
-            padding: 10px;
-            background: white;
-            color: black;
-            overflow: auto;
-        }
-    </style>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="sidebar">
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-js"></i>
-        <i class="fab fa-python"></i>
-        <i class="fab fa-java"></i>
-        <i class="fas fa-database"></i>  <!-- SQL -->
-        <i class="fas fa-c"></i>  <!-- C -->
-        <i class="fab fa-cuttlefish"></i>  <!-- C++ -->
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3-alt"></i>
+      <i class="fab fa-js"></i>
+      <i class="fab fa-python"></i>
+      <i class="fab fa-java"></i>
+      <i class="fab fa-SQL"></i>
+      <i class="fas fa-database"></i>
+      <i class="fas fa-c"></i>
+      <i class="fab fa-cuttlefish"></i>
     </div>
     <div class="container">
-        <div class="editor-container">
-            <textarea id="code" placeholder="Write your HTML code here..."></textarea>
-            <button onclick="runCode()">Run ▶</button>
-        </div>
-        <iframe id="output" class="output-container"></iframe>
+      <div class="editor-container">
+        <textarea
+          id="code"
+          placeholder="Write your HTML code here..."
+        ></textarea>
+        <button onclick="runCode()">Run ▶</button>
+      </div>
+      <iframe id="output" class="output-container"></iframe>
     </div>
 
     <script>
-        function runCode() {
-            let code = document.getElementById("code").value;
-            let outputFrame = document.getElementById("output").contentWindow.document;
-            outputFrame.open();
-            outputFrame.write(code);
-            outputFrame.close();
-        }
+      function runCode() {
+        let code = document.getElementById("code").value;
+        let outputFrame =
+          document.getElementById("output").contentWindow.document;
+        outputFrame.open();
+        outputFrame.write(code);
+        outputFrame.close();
+      }
     </script>
-</body>
-</html>
+  </body>
+</html> -->
