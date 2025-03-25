@@ -1,3 +1,1 @@
-cars.pop();
-console.log(cars);
-
+console.log(arr.length);
