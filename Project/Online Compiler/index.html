@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodeBurst</title>
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-/>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Navbar -->
-  <div class="navbar">
-    <i class="fas fa-code icon"></i>
-      <!-- <img src="your-logo.png" alt="Logo" class="logo"> -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeBurst</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <i class="fas fa-code icon"></i>
       <span class="site-name">CodeBurst</span>
-      <button>Run Code</button>
+      <button onclick="runCode()" id="runbtn">Run Code</button>
+      <button id="modeToggle" onclick="toggleMode()">🌙 Dark Mode</button>
+    </div>
 
-  </div>
-
-  <!-- Sidebar -->
-  <div class="sidebar">
+    <!-- Sidebar -->
+    <div class="sidebar">
       <i class="fab fa-html5" id="html" title="HTML"></i>
       <i class="fab fa-css3-alt" id="css" title="CSS"></i>
       <i class="fab fa-js" id="js" title="JavaScript"></i>
@@ -31,121 +34,21 @@
       <i class="fas fa-c" id="c" title="C"></i>
       <i class="fab fa-cuttlefish" id="cpp" title="C++"></i>
       <i class="fab fa-php" id="php" title="PHP"></i>
-  </div>
-
-  <div class="container">
-      <div class="editor-container">
-          <textarea id="editor"></textarea>
-      </div>
-      <div class="output-container">Output will be shown here...</div>
-  </div>
-  <script src="script.js"></script>
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Online Compiler</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="sidebar">
-      <i class="fab fa-html5"></i>
-      <i class="fab fa-css3-alt"></i>
-      <i class="fab fa-js"></i>
-      <i class="fab fa-python"></i>
-      <i class="fab fa-java"></i>
-      <i class="fab fa-SQL"></i>
-      <i class="fas fa-database"></i>
-      <i class="fas fa-c"></i>
-      <i class="fab fa-cuttlefish"></i>
     </div>
+
     <div class="container">
       <div class="editor-container">
-        <textarea
-          id="code"
-          placeholder="Write your HTML code here..."
-        ></textarea>
-        <button onclick="runCode()">Run ▶</button>
+        <!-- CodeMirror Editor -->
+        <textarea id="editor"></textarea>
       </div>
-      <iframe id="output" class="output-container"></iframe>
+      <div class="output-container">
+        <iframe id="output"></iframe>
+      </div>
     </div>
 
-    <script>
-      function runCode() {
-        let code = document.getElementById("code").value;
-        let outputFrame =
-          document.getElementById("output").contentWindow.document;
-        outputFrame.open();
-        outputFrame.write(code);
-        outputFrame.close();
-      }
-    </script>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/xml/xml.min.js"></script>
+    <script src="script.js"></script>
   </body>
-</html> -->
+</html>

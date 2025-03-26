@@ -174,10 +174,11 @@ body {
 /* Editor Area */
 .editor-container {
   flex: 1;
-  padding: 15px;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  height: 105%;
+  background: #1e1e1e; /* Dark background */
+  padding: 10px;
+  border-radius: 8px;
 }
 
 textarea {
@@ -198,10 +199,12 @@ button {
   background: #00c8ff;
   border: none;
   color: white;
-  font-size: 16px;
+  font-size: 13px;
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
   border-radius: 5px;
+  margin-left: 100px;
+  gap: 10px;
 }
 
 button:hover {
@@ -223,4 +226,57 @@ button:hover {
   background: #282c34;
   margin-top: 16px;
   height: 93%;
+  padding: 15px;
+  text-align: left; /* Change to center if needed */
+  color: white;
+}
+
+/* CodeMirror Styling */
+.CodeMirror {
+  height: 100%;
+  width: 100%;
+  background: #1e1e1e; /* Dark mode */
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Output Section */
+.output-container {
+  flex: 1;
+  height: 100%;
+  background: #222; /* Dark background */
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Remove White Border in Output */
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #333; /* Dark background */
+}
+
+
+#runbtn{
+  margin-left: 920px;
+}
+
+#modeToggle{
+  margin-left: 10px;
+  padding: 10px;
+  background: #00c8ff;
+  border: none;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  border-radius: 5px;
+ 
+
 }
