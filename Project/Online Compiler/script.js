@@ -1,0 +1,1 @@
+document.getElementById("editor").value = "<h1>Try CodeBurst..</h1>";

@@ -1,182 +1,224 @@
+/* General Styles */
 body {
-    margin: 0;
-    padding: 0;
-    background: #121212;
-    color: white;
-    font-family: Arial, sans-serif;
-    display: flex;
-    height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
 }
 
 /* Navbar Styles */
 .navbar {
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    font-size: 20px;
-    font-weight: bold;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+  width: 100%;
+  height: 50px;
+  background-color: #181818;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
 }
 
 /* Logo Styles */
 .logo {
-    height: 35px;
-    margin-right: 10px;
+  height: 35px;
+  margin-right: 10px;
 }
 
+/* Sidebar Styles */
 .sidebar {
-    width: 60px;
-    /* background: #1e1e1e; */
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    height: 100%;
-    gap: 10px;
-    position: fixed;
-    top: 50px;
+  width: 60px;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  height: 100%;
+  gap: 15px;
+  position: fixed;
+  top: 50px;
+  z-index: 150;
+  box-shadow: 3px 0 10px rgba(255, 255, 255, 0.1); /* Added shadow */
 }
+.site-name {
+  color: #00e0ff; /* Neon Cyan */
+  font-weight: bold;
+  font-size: 24px;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+  text-shadow: 0px 0px 5px rgba(0, 224, 255, 0.5); /* Softer, Subtle Glow */
+}
+
+.icon {
+  font-size: 35px;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  color: #00e0ff; /* Same Neon Cyan as logo text */
+  transition: transform 0.2s, box-shadow 0.3s, color 0.3s;
+  background: transparent; /* Transparent background */
+  margin-left: 35px;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  color: #00c8ff; /* Slightly brighter cyan on hover */
+}
+
+/* Sidebar Icons */
 .sidebar i {
-    color: white;
-    font-size: 35px;
-    margin: 20px 0;
-    cursor: pointer;
-    transition: 0.3s;
-    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
-
-    
-    
-}
-
-#html {
-    color: #b33e1e; /* Darker orange */
-    transition: color 0.3s, transform 0.2s;
-}
-#html:hover {
-    color: #E34F26; /* Brighter orange */
-    transform: scale(1.1);
-}
-
-#js {
-    color: #c2ae16; /* Darker yellow */
-    transition: color 0.3s, transform 0.2s;
-}
-#js:hover {
-    color: #F7DF1E; /* Brighter yellow */
-    transform: scale(1.1);
-}
-
-#css {
-    color: #1d4e91; /* Darker blue */
-    transition: color 0.3s, transform 0.2s;
-}
-#css:hover {
-    color: #2965F1; /* Brighter blue */
-    transform: scale(1.1);
-}
-
-#python {
-    color: #b49b2c; /* Darker yellow */
-    transition: color 0.3s, transform 0.2s;
-}
-#python:hover {
-    color: #FFD43B; /* Brighter yellow */
-    transform: scale(1.1);
-}
-
-#java {
-    color: #00506a; /* Darker blue */
-    transition: color 0.3s, transform 0.2s;
-}
-#java:hover {
-    color: #007396; /* Brighter blue */
-    transform: scale(1.1);
-}
-
-#sql {
-    color: #9b1f1b; /* Darker red */
-    transition: color 0.3s, transform 0.2s;
-}
-#sql:hover {
-    color: #CC2927; /* Brighter red */
-    transform: scale(1.1);
-}
-
-#c {
-    color: #798b99; /* Darker blue */
-    transition: color 0.3s, transform 0.2s;
-}
-#c:hover {
-    color: #A8B9CC; /* Brighter blue */
-    transform: scale(1.1);
-}
-
-#cpp {
-    color: #003c6e; /* Darker blue */
-    transition: color 0.3s, transform 0.2s;
-}
-#cpp:hover {
-    color: #00599C; /* Brighter blue */
-    transform: scale(1.1);
-}
-
-#php {
-    color: #5f668a; /* Darker purple */
-    transition: color 0.3s, transform 0.2s;
-}
-#php:hover {
-    color: #8892BF; /* Brighter purple */
-    transform: scale(1.1);
+  color: white;
+  font-size: 32px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.2s;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
 }
 
 .sidebar i:hover {
-    color: #00c8ff;
+  color: #00c8ff;
+  transform: scale(1.1);
 }
+
+/* Programming Language Colors */
+#html {
+  color: #b33e1e;
+}
+#html:hover {
+  color: #e34f26;
+  transform: scale(1.1);
+}
+
+#js {
+  color: #c2ae16;
+}
+#js:hover {
+  color: #f7df1e;
+  transform: scale(1.1);
+}
+
+#css {
+  color: #1d4e91;
+}
+#css:hover {
+  color: #2965f1;
+  transform: scale(1.1);
+}
+
+#python {
+  color: #b49b2c;
+}
+#python:hover {
+  color: #ffd43b;
+  transform: scale(1.1);
+}
+
+#java {
+  color: #00506a;
+}
+#java:hover {
+  color: #007396;
+  transform: scale(1.1);
+}
+
+#sql {
+  color: #9b1f1b;
+}
+#sql:hover {
+  color: #cc2927;
+  transform: scale(1.1);
+}
+
+#c {
+  color: #798b99;
+}
+#c:hover {
+  color: #a8b9cc;
+  transform: scale(1.1);
+}
+
+#cpp {
+  color: #003c6e;
+}
+#cpp:hover {
+  color: #00599c;
+  transform: scale(1.1);
+}
+
+#php {
+  color: #5f668a;
+}
+#php:hover {
+  color: #8892bf;
+  transform: scale(1.1);
+}
+
+/* Main Container */
 .container {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-top: 50px;
 }
+
+/* Editor Area */
 .editor-container {
-    flex: 1;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 105%;
 }
+
 textarea {
-    width: 100%;
-    height: 90%;
-    background: #282c34;
-    color: white;
-    border: none;
-    font-size: 16px;
-    padding: 10px;
+  width: 100%;
+  height: 90%;
+  background: #282c34;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
 }
+
+/* Buttons */
 button {
-    padding: 10px;
-    background: #00c8ff;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
+  padding: 10px;
+  background: #00c8ff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  border-radius: 5px;
 }
+
 button:hover {
-    background: #009acd;
+  background: #009acd;
+  transform: scale(1.05);
 }
+
+/* Output Area */
 .output-container {
-    flex: 1;
-    padding: 10px;
-    background: white;
-    color: black;
-    overflow: auto;
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  margin-top: 16px;
+  height: 93%;
 }
