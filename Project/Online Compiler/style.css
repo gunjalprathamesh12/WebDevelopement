@@ -168,6 +168,7 @@ body {
   flex-direction: row;
   margin-left: 60px;
   margin-top: 50px;
+  gap: 10px;
 }
 
 /* Editor Area */
@@ -218,7 +219,8 @@ button:hover {
   padding: 15px;
   display: flex;
   flex-direction: column;
-  background-color: red;
+  /* background-color: red; */
+  background: #282c34;
   margin-top: 16px;
   height: 93%;
 }
