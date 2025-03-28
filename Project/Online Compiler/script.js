@@ -7,9 +7,7 @@ var editor = CodeMirror.fromTextArea(document.getElementById("editor"), {
   theme: "dracula", // Dark theme
   matchBrackets: true,
   autoCloseBrackets: true,
-});
-
-// Function to run code
+});// Function to run code
 function runCode() {
   let outputFrame = document.getElementById("output").contentWindow.document;
   outputFrame.open();
