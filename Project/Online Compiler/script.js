@@ -15,6 +15,8 @@ function runCode() {
   outputFrame.close();
 }
 
+
+
 function toggleMode() {
   var body = document.body;
   var modeBtn = document.getElementById("modeToggle");
