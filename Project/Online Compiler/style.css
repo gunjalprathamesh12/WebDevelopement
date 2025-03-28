@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   font-family: "Rancho", cursive;
   font-weight: 400;
@@ -7,11 +8,53 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Layout */
 .container {
   display: flex;
-  flex-direction: column;
   height: 100vh;
 }
+
+/* Sidebar */
+.sidebar {
+  width: 60px;
+  background-color: #242c37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  height: 100vh; /* Full height */
+  gap: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 150;
+  box-shadow: 3px 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Sidebar Icons */
+.sidebar i {
+  color: white;
+  font-size: 32px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.sidebar i:hover {
+  transform: scale(1.1);
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  margin-left: 70px; /* Adjust for sidebar width */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Header */
 .header {
   background-color: #242c37;
   padding: 10px;
@@ -22,26 +65,16 @@ body {
   font-weight: bold;
   color: #d9643a;
   letter-spacing: 5px;
+  text-align: center;
 }
-.main-content {
-  display: flex;
-  flex-grow: 1;
-}
+
+/* Code Editor */
 .code-editor {
   flex: 1;
-  padding: 20px;
-}
-.code-editor {
-  flex: 1;
-  padding: 20px;
-  /* display: flex; */
-}
-.input-output {
-  flex: 1;
-  padding: 20px;
   display: flex;
   flex-direction: column;
 }
+
 .code-area {
   width: 100%;
   height: 450px;
@@ -50,157 +83,53 @@ body {
   padding: 10px;
   font-size: 1rem;
   border-radius: 5px;
-  position: relative;
-  left: 15px;
   resize: vertical;
 }
+
+/* Input & Output */
+.input-output {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
 .input-area,
 .output-area {
-  flex: 1;
-  width: 96%;
+  width: 100%;
   background-color: #242c37;
   color: #cbd5e1;
   padding: 10px;
   font-size: 1rem;
   border-radius: 5px;
-  margin: 10px;
+  margin: 10px 0;
   resize: vertical;
-  margin-bottom: 20px;
-}
-.controls {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-}
-.controls select,
-.controls button {
-  padding: 8px 12px;
-  background-color: #242c37;
-  color: #cbd5e1;
-  border: none;
-  font-size: 1.1rem;
-  font-family: "Rancho", cursive;
-  margin-left: 25px;
-  border-radius: 4px;
-  cursor: pointer;
-  width: 150px;
-}
-.controls button {
-  background-color: #d9643a;
-  width: 150px;
-  font-size: 1.1rem;
-  font-family: "Rancho", cursive;
-  /* font-weight: 600; */
-}
-.practice-section {
-  background-color: #d9643a;
-  color: #cbd5e1;
-  padding: 8px 12px;
-  border: none;
-  position: relative;
-  /* top: 50px; */
-  font-size: 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.line-numbers {
-  width: 10px;
-  background-color: #2d3748;
-  color: #cbd5e1;
-  text-align: right;
-  padding: 5px 3px;
-  font-size: 0.8em;
-  top: 152px;
-  left: 10px;
-  position: absolute;
-  white-space: nowrap;
-  
 }
 
 .para-code {
-  font-size: 1.75rem;
-  margin-left: 35px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  color: #d9643a;
 }
-.sidebar {
-  width: 60px;
-  background-color: #242c37;
+
+/* Run Button */
+.controls {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
-  height: 100vh; /* Full height to cover entire screen */
-  gap: 15px;
-  position: fixed; /* Fix it at the top */
-  top: 0; /* Stick to the top */
-  left: 0; /* Stick to the left */
-  z-index: 150;
-  box-shadow: 3px 0 10px rgba(255, 255, 255, 0.1);
+  justify-content: flex-start;
+  margin-bottom: 10px;
 }
 
-
-
-.sidebar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar ul li {
-  padding: 10px;
-}
-
-.sidebar ul li img {
-  width: 40px;
-  height: 40px;
-  filter: brightness(0) invert(1);
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out;
-}
-
-.sidebar ul li img:hover {
-  transform: scale(1.1);
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-}
-
-.main-content {
-  flex-grow: 1;
-  margin-left: 70px; /* Adjust for sidebar width */
-  display: flex;
-  flex-direction: column;
-}
-
-/* Sidebar Styles */
-.sidebar {
-  width: 60px;
-  /* background-color: #121212; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
-  height: 100%;
-  gap: 15px;
-  position: fixed;
-  top: 50px;
-  z-index: 150;
-  box-shadow: 3px 0 10px rgba(255, 255, 255, 0.1); /* Added shadow */
-}
-
-/* Sidebar Icons */
-.sidebar i {
+.controls button {
+  padding: 8px 12px;
+  background-color: #d9643a;
   color: white;
-  font-size: 32px;
-  margin: 15px 0;
+  border: none;
+  font-size: 1.1rem;
+  font-family: "Rancho", cursive;
+  border-radius: 4px;
   cursor: pointer;
-  transition: color 0.3s, transform 0.2s;
-  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+  width: 150px;
 }
 
 .sidebar i:hover {
