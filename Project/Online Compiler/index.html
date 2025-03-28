@@ -3,51 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CodeBurst</title>
+    <title>Syntax Error</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rancho&display=swap"
+      rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <div class="navbar">
-      <i class="fas fa-code icon"></i>
-      <span class="site-name">SyntaxError</span>
-      <button onclick="runCode()" id="runbtn">Run Code</button>
-      <button id="modeToggle" onclick="toggleMode()">🌙 Dark Mode</button>
-    </div>
-    <!-- Sidebar -->
-    <div class="sidebar">
-      <i class="fab fa-html5" id="html" title="HTML"></i>
-      <i class="fab fa-css3-alt" id="css" title="CSS"></i>
-      <i class="fab fa-js" id="js" title="JavaScript"></i>
-      <i class="fab fa-python" id="python" title="Python"></i>
-      <i class="fab fa-java" id="java" title="Java"></i>
-      <i class="fas fa-database" id="sql" title="SQL"></i>
-      <i class="fas fa-c" id="c" title="C"></i>
-      <i class="fab fa-cuttlefish" id="cpp" title="C++"></i>
-      <i class="fab fa-php" id="php" title="PHP"></i>
-    </div>
-
     <div class="container">
-      <div class="editor-container">
-        <!-- CodeMirror Editor -->
-        <textarea id="editor"></textarea>
+      <div class="sidebar">
+        <i class="fab fa-html5" id="html" title="HTML"></i>
+        <i class="fab fa-css3-alt" id="css" title="CSS"></i>
+        <i class="fab fa-js" id="js" title="JavaScript"></i>
+        <i class="fab fa-python" id="python" title="Python"></i>
+        <i class="fab fa-java" id="java" title="Java"></i>
+        <i class="fas fa-database" id="sql" title="SQL"></i>
+        <i class="fas fa-c" id="c" title="C"></i>
+        <i class="fab fa-cuttlefish" id="cpp" title="C++"></i>
+        <i class="fab fa-php" id="php" title="PHP"></i>
       </div>
-      <div class="output-container">
-        <iframe id="output"></iframe>
+      <div class="main-content">
+        <div class="header">Syntax Error</div>
+        <div class="code-editor">
+          <div class="line-numbers"></div>
+          <div class="controls">
+            <button>Run</button>
+          </div>
+          <textarea
+            class="code-area"
+            placeholder="Enter your code here" id="editor"></textarea>
+        </div>
+        <div class="input-output">
+          <textarea
+            class="input-area"
+            placeholder="Enter Input here"></textarea>
+          <div class="para-code">
+            If your code takes input, add it in the above box before running.
+          </div>
+          <textarea
+            class="output-area"
+            placeholder="Output"
+            readonly></textarea>
+        </div>
       </div>
     </div>
-
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/xml/xml.min.js"></script>
-    <script src="script.js"></script>
   </body>
+  <script src="script.js"></script>
 </html>
