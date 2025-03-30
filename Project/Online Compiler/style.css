@@ -25,12 +25,12 @@ body {
   padding-top: 20px;
   height: 100vh; /* Full height */
   gap: 15px;
-  position: fixed;
-  top: 0;
+  position: relative;
   left: 0;
   z-index: 150;
   box-shadow: 3px 0 10px rgba(255, 255, 255, 0.1);
 }
+
 
 /* Sidebar Icons */
 .sidebar i {
@@ -55,18 +55,24 @@ body {
 }
 
 /* Header */
+/* Header */
 .header {
   background-color: #242c37;
-  padding: 10px;
-  width: 96%;
-  border-radius: 6px;
-  margin: 10px auto;
+  padding: 15px 0;
+  width: 100vw; /* Full viewport width */
+  border-radius: 0; /* Remove rounded edges */
+  margin: 0; /* No margin */
   font-size: 2rem;
   font-weight: bold;
   color: #d9643a;
   letter-spacing: 5px;
   text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
 }
+
 
 /* Code Editor */
 .code-editor {
