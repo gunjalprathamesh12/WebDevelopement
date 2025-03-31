@@ -6,39 +6,29 @@
     <title>Syntax Error</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />   
-     <link
-      href="https://fonts.googleapis.com/css2?family=Rancho&display=swap"
-      rel="stylesheet" />  
-          
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
+      href="https://fonts.googleapis.com/css2?family=Rancho&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <div class="container">
-      <div class="sidebar">
-        <i class="fab fa-html5" id="html" title="HTML"></i>
-        <i class="fab fa-css3-alt" id="css" title="CSS"></i>
-        <i class="fab fa-js" id="js" title="JavaScript"></i>
-        <i class="fab fa-python" id="python" title="Python"></i>
-        <i class="fab fa-java" id="java" title="Java"></i>
-        <i class="fas fa-database" id="sql" title="SQL"></i>
-        <i class="fas fa-c" id="c" title="C"></i>
-        <i class="fab fa-cuttlefish" id="cpp" title="C++"></i>
-        <i class="fab fa-php" id="php" title="PHP"></i>
-      </div>
+      <div class="header">Syntax Error</div>
       <div class="main-content">
-        <div class="header">Syntax Error</div>
         <div class="code-editor">
           <div class="line-numbers"></div>
           <div class="controls">
+            <select>
+              <option>Select Language</option>
+              <option>JavaScript</option>
+              <option>Java</option>
+            </select>
             <button>Run</button>
           </div>
+
           <textarea
             class="code-area"
-            placeholder="Enter your code here" id="editor"></textarea>
+            placeholder="Enter your code here"></textarea>
         </div>
         <div class="input-output">
           <textarea
