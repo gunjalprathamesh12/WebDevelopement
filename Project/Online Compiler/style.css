@@ -61,8 +61,6 @@ body {
   font-size: 20px; /* Increase this value if needed */
   font-family: "Courier New", monospace; /* Coding font for better readability */
 }
-
-
 .input-area,
 .output-area {
   flex: 1;
