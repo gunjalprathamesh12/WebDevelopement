@@ -47,6 +47,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .code-area {
   width: 100%;
   height: 450px;
