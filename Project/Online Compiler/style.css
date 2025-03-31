@@ -28,12 +28,13 @@ body {
 .main-content {
   display: flex;
   flex-grow: 1;
-  
+
 }
 .code-editor {
   flex: 1;
   padding: 20px;
 }
+
 .code-editor {
   flex: 1;
   padding: 20px;
