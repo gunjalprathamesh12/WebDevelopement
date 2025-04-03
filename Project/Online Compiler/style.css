@@ -267,6 +267,10 @@ body {
   overflow: hidden; /* Prevent scrolling in the main content */
 }
 
+
+
+
+
 .editor-container {
   flex: 1;
   display: flex;
