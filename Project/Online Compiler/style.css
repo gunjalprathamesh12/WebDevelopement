@@ -274,6 +274,7 @@ body {
   overflow: hidden; /* Prevent scrolling */
 }
 
+
 .editor, .output {
   flex: 1;
   padding: 10px;
