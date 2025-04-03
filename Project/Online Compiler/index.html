@@ -1,49 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Syntax Error</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rancho&display=swap"
-      rel="stylesheet" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="header">Syntax Error</div>
-      <div class="main-content">
-        <div class="code-editor">
-          <div class="line-numbers"></div>
-          <div class="controls">
-            <select>
-              <option>Select Language</option>
-              <option>JavaScript</option>
-              <option>Java</option>
-            </select>
-            <button>Run</button>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Compiler</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script>
+        function runCode() {
+            let code = document.querySelector(".editor").innerText;
+            document.querySelector(".output").innerText = "Executing...\n" + code;
+        }
 
-          <textarea
-            class="code-area"
-            placeholder="Enter your code here"></textarea>
-        </div>
-        <div class="input-output">
-          <textarea
-            class="input-area"
-            placeholder="Enter Input here"></textarea>
-          <div class="para-code">
-            If your code takes input, add it in the above box before running.
-          </div>
-          <textarea
-            class="output-area"
-            placeholder="Output"
-            readonly></textarea>
-        </div>
-      </div>
+        function clearOutput() {
+            document.querySelector(".output").innerText = "";
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Syntax error</h1>
     </div>
-  </body>
-  <script src="script.js"></script>
+    <div class="container">
+        <div class="sidebar">
+            <div class="icon" title="Python"><i class="fab fa-python"></i></div>
+            <div class="icon" title="R"><i class="fas fa-r"></i></div>
+            <div class="icon" title="Database"><i class="fas fa-database"></i></div>
+            <div class="icon" title="HTML5"><i class="fab fa-html5"></i></div>
+            <div class="icon" title="Java"><i class="fab fa-java"></i></div>
+            <div class="icon" title="C"><i class="fas fa-c"></i></div>
+            <div class="icon" title="C++"><i class="fas fa-cplusplus"></i></div>
+            <div class="icon" title="C#"><i class="fas fa-csharp"></i></div>
+        </div>
+        <div class="main">
+            <div class="editor-container">
+                <div class="editor" contenteditable="true">// Write your code here</div>
+                <div class="output">// Output will be displayed here</div>
+               
+            </div>
+        </div>
+    </div>
+</body>
 </html>
