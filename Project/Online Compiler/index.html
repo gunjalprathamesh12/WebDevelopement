@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Compiler</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
     <script>
-        function runCode() {
-            let code = document.querySelector(".editor").innerText;
-            document.querySelector(".output").innerText = "Executing...\n" + code;
-        }
+      function runCode() {
+        let code = document.querySelector(".editor").innerText;
+        document.querySelector(".output").innerText = "Executing...\n" + code;
+      }
 
-        function clearOutput() {
-            document.querySelector(".output").innerText = "";
-        }
+      function clearOutput() {
+        document.querySelector(".output").innerText = "";
+      }
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="header">
-        <h1>Syntax error</h1>
+      <h1>Syntax error</h1>
     </div>
     <div class="container">
-        <div class="sidebar">
-            <div class="icon" title="Python"><i class="fab fa-python"></i></div>
-            <div class="icon" title="R"><i class="fas fa-r"></i></div>
-            <div class="icon" title="Database"><i class="fas fa-database"></i></div>
-            <div class="icon" title="HTML5"><i class="fab fa-html5"></i></div>
-            <div class="icon" title="Java"><i class="fab fa-java"></i></div>
-            <div class="icon" title="C"><i class="fas fa-c"></i></div>
-            <div class="icon" title="C++"><i class="fas fa-cplusplus"></i></div>
-            <div class="icon" title="C#"><i class="fas fa-csharp"></i></div>
-        </div>
-        <div class="main">
-            <div class="editor-container">
-                <div class="editor" contenteditable="true">// Write your code here</div>
-                <div class="output">// Output will be displayed here</div>
-               
+      <div class="sidebar">
+        <div class="icon" title="Python"><i class="fab fa-python"></i></div>
+        <div class="icon" title="R"><i class="fas fa-r"></i></div>
+        <div class="icon" title="Database"><i class="fas fa-database"></i></div>
+        <div class="icon" title="HTML5"><i class="fab fa-html5"></i></div>
+        <div class="icon" title="Java"><i class="fab fa-java"></i></div>
+        <div class="icon" title="C"><i class="fas fa-c"></i></div>
+        <div class="icon" title="C++"><i class="fas fa-cplusplus"></i></div>
+        <div class="icon" title="C#"><i class="fas fa-csharp"></i></div>
+      </div>
+      <div class="tabs">
+        <div class="tab1">
+          <div class="icon action" title="Run" onclick="runCode()">
+            <i class="fas fa-play"></i>
+          </div>
+          <div class="icon action" title="Share Code" onclick="shareCode()">
+            <i class="fas fa-share-alt"></i>
+          </div>
+          <div class="icon action" title="Fullscreen" onclick="toggleFullScreen()">
+            <i class="fas fa-expand"></i>
+          </div>
+          <div class="tab2">
+            <div class="icon action" title="Clear Output" onclick="clearOutput()">
+              <i class="fas fa-trash"></i>
             </div>
+          </div>
         </div>
+      </div>
+      <div class="main">
+        <div class="editor-container">
+          <div class="editor" contenteditable="true">
+            // Write your code here
+          </div>
+          <div class="output">// Output will be displayed here</div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

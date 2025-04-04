@@ -1,15 +1,19 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
-
-body { 
-    display: flex; 
-    flex-direction: column; 
-    height: 100vh; 
-    background: #1e1e1e; 
-    color: white; 
-    font-family: Arial, sans-serif; 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header { 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #1e1e1e;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.header {
   height: 100px;
   width: 100%;
   position: fixed; /* Fix the header at the top */
@@ -25,29 +29,36 @@ body {
   z-index: 1000; /* Ensures it's above other elements */
 }
 
+h1 {
+  color: #00eaff; /* Choose your preferred color */
+  font-weight: bold;
+  /* text-transform: uppercase; */
+  text-shadow: 0 0 2px #00eaff;
+}
+
 .container {
   margin-top: 100px; /* Prevent content from hiding behind the fixed header */
 }
 
-
-.container { 
-    display: flex; 
-    flex: 1; 
-    width: 100%;
+.container {
+  display: flex;
+  flex: 1;
+  width: 100%;
 }
 
-.sidebar { 
-  width: 80px; 
-  background: #252526; 
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  padding: 20px 0; 
+.sidebar {
+  width: 80px;
+  background: #252526;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
   gap: 15px;
   height: 100vh; /* Full height */
   overflow-y: auto; /* Allow vertical scrolling */
   scrollbar-width: none; /* Hide scrollbar in Firefox */
   -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
+  position: fixed;
 }
 
 /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
@@ -60,70 +71,72 @@ body {
   scroll-behavior: smooth;
 }
 
-
-.icon { 
-    width: 70px;
-    height: 70px;
-    background: rgba(255, 255, 255, 0.1); 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    position: relative;
+.icon {
+  width: 70px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
 }
 
 .icon i {
-    font-size: 50px;  /* Made all icons larger */
-    color: #bbb;
-    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  font-size: 50px; /* Made all icons larger */
+  color: #bbb;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .icon:hover {
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
 .icon:hover i {
-    color: #fff;
-    transform: scale(1.1);
+  color: #fff;
+  transform: scale(1.1);
 }
 
-.main { 
-    flex: 1; 
-    display: flex; 
-    flex-direction: column; 
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 68px;
 }
 
-.editor-container { 
-    flex: 1; 
-    display: flex; 
-    height: 100%;
+.editor-container {
+  flex: 1;
+  display: flex;
+  height: 100%;
 }
 
-.editor, .output { 
-    flex: 1; 
-    padding: 10px; 
+.editor,
+.output {
+  flex: 1;
+  padding: 10px;
 }
 
-.editor { 
-    background: #1e1e1e; 
-    border-right: 2px solid #333; 
+.editor {
+  background: #1e1e1e;
+  border-right: 2px solid #333;
 }
 
-.output { 
-    background: #252526; 
+.output {
+  background: #252526;
 }
 
-.btn { 
-    padding: 10px 20px; 
-    background: #007acc; 
-    border: none; 
-    color: white; 
-    cursor: pointer; 
-    font-size: 16px;
-    border-radius: 5px;
+.btn {
+  padding: 10px 20px;
+  background: #007acc;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
 }
 
 .editor {
@@ -186,8 +199,6 @@ body {
   filter: grayscale(0); /* Restore color */
 }
 
-
-
 .sidebar {
   width: 80px;
   background: #252526;
@@ -240,13 +251,13 @@ body {
   overflow: hidden; /* Prevent entire page from scrolling */
 }
 
-.sidebar { 
-  width: 80px; 
-  background: #252526; 
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  padding: 20px 0; 
+.sidebar {
+  width: 80px;
+  background: #252526;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
   gap: 15px;
   height: 100vh; /* Full height */
   overflow-y: auto; /* Enable scrolling only for sidebar */
@@ -274,8 +285,8 @@ body {
   overflow: hidden; /* Prevent scrolling */
 }
 
-
-.editor, .output {
+.editor,
+.output {
   flex: 1;
   padding: 10px;
   overflow: auto; /* Allow scrolling inside the code editor/output if needed */
@@ -289,4 +300,139 @@ body {
 .output {
   background: #252526;
 }
+
+.tabs .tab1 button {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 580px;
+}
+
+.tabs .tab2 button {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.run {
+  background: #007acc;
+  color: white;
+}
+
+.clear {
+  background: #d9534f;
+  color: white;
+}
+
+/* Responsive Design */
+/*Tab Styles*/
+
+.tabs {
+  position: fixed;
+  top: 102px; /* Adjust based on the header height */
+  left: 80px; /* Sidebar width */
+  width: calc(100% - 80px); /* Full width minus sidebar */
+  background: #333;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  z-index: 1000;
+  border-bottom: 2px solid #444;
+  gap: 10px; /* Space between tab1 and tab2 */
+}
+
+/* Make tab1 buttons stay in one line */
+.tab1 {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between buttons */
+}
+
+/* Style for all buttons */
+.tab1 button,
+.tab2 button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between icon and text */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Individual button colors */
+.clear {
+  background: #dc3545;
+}
+.share {
+  background: #28a745;
+}
+.fullscreen {
+  background: #ff9800;
+}
+
+/* Hover effect */
+.tab1 button:hover,
+.tab2 button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* Remove extra margin */
+.tab2 {
+  margin-left: auto; /* Push tab2 to the right */
+}
+
+/*delete*/
+/* Styling for tab icons */
+.tab1 {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between icons */
+}
+
+.tab1 .icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.tab1 .icon i {
+  font-size: 22px;
+  color: white;
+}
+
+.tab1 .icon:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+.tab1 .icon:hover i {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.tab2 {
+  display: flex;
+  margin-right: 100px;
+}
+
 
