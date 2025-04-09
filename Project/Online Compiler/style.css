@@ -67,8 +67,7 @@ h1 {
 }
 
 /* Ensure smooth scrolling */
-.sidebar {
-  
+.sidebar {  
   scroll-behavior: smooth;
 }
 
