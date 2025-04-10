@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Compiler</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="WebDevelopement/Online Compiler/codemirror-5.65.19/lib/codemirror.css"
+    />
+    <link
+      rel="stylesheet"
+      href="WebDevelopement/Online Compiler/codemirror-5.65.19/theme/dracula.css"
+    />
+
+    <!-- CodeMirror -->
+    <script src="WebDevelopement/Online Compiler/codemirror-5.65.19/lib/codemirror.js"></script>
+    <script src="WebDevelopement/Online Compiler/codemirror-5.65.19/mode/clike/clike.js"></script>
+    <script src="WebDevelopement/Online Compiler/codemirror-5.65.19/addon/edit/closebrackets.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Syntax error</h1>
+    </div>
+
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="icon" title="Python"><i class="fab fa-python"></i></div>
+        <div class="icon" title="R"><i class="fas fa-r"></i></div>
+        <div class="icon" title="Database"><i class="fas fa-database"></i></div>
+        <div class="icon" title="HTML5"><i class="fab fa-html5"></i></div>
+        <div class="icon" title="Java"><i class="fab fa-java"></i></div>
+        <div class="icon" title="C"><i class="fas fa-c"></i></div>
+        <div class="icon" title="C++"><i class="fas fa-cplusplus"></i></div>
+        <div class="icon" title="C#"><i class="fas fa-csharp"></i></div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <div class="tab1">
+          <div class="icon action" title="Run" onclick="runCode()">
+            <i class="fas fa-play"></i>
+          </div>
+          <div class="icon action" title="Share Code" onclick="shareCode()">
+            <i class="fas fa-share-alt"></i>
+          </div>
+          <div class="icon action" title="Fullscreen" onclick="toggleFullScreen()">
+            <i class="fas fa-expand"></i>
+          </div>
+          <div class="tab2">
+            <div class="icon action" title="Clear Output" onclick="clearOutput()">
+              <i class="fas fa-trash"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Editor and Output -->
+      <div class="main">
+        <div class="ip">
+          <textarea id="editor">// Write your code here</textarea>
+        </div>
+
+        <div class="op">
+          <pre class="output">// Output will appear here</pre>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
