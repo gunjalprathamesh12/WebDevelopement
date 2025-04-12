@@ -14,39 +14,51 @@ body {
   padding: 0 !important;
   margin: 0 !important;
   font-family: "Poppins", sans-serif;
-  background-image: url("space\ img.jpg");
-  background-size: cover;          /* Makes image cover full screen */
-  background-position: center;     /* Centers the image */
-  background-repeat: no-repeat;    /* Prevents repeating */
-  background-attachment: fixed; 
-
+  background-color: #0d0d0d;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
   margin-left: 80px;
-
 }
 
 .nb {
-  background-color: palegoldenrod;
+  background-color: transparent; /* dark background for navbar */
+  padding: 20px;
   display: flex;
   align-items: center;
-  height: 60px;
-  background-color: transparent;
-
-  
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+  padding: 20px 80px;
 }
 
 #items {
   margin-left: 500px;
   justify-content: center;
-  gap: 20px;
-  margin-left: 500px;
+  gap: 30px;
+  margin-right: 80px;
   display: flex;
 }
-#items a{
-    color: white;
+#items a {
+  color: white;
+  text-decoration: none;
+}
+#items a:hover {
+  color: white;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff,
+    0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff;
+    width: 100%;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: white;
+  opacity: 0.6;
+  width: 100%; /* or any percentage you want */
+  margin: 20px auto; /* 'auto' centers it horizontally */
+  margin-top: 1px;
 }
 
 .m {
@@ -57,3 +69,9 @@ h1 {
   background-color: burlywood;
 }
 
+@media (max-width: 768px) {
+  .nb {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
