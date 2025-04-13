@@ -89,3 +89,10 @@ hr {
     padding: 20px;
   }
 }
+
+/*Main Page*/
+.m{
+  margin-top: 80px;
+  background-color: red;
+  background-color: transparent;
+}
