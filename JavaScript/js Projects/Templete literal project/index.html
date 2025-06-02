@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Template Literal Project</h1>
+    <p>
+      This is a simple project to demonstrate the use of template literals in
+      JavaScript.
+    </p>
+    <div>
+      <label for="name">Enter your name</label>
+      <input type="text" id="name" placeholder="Enter your name here" />
+      <br />
+      <label for="password">password:</label>
+      <input type="password" name="pass" id="pass" />
+      <input type="button" value="show" onclick="show()" />
+    </div>
+
+    <script>
+
+      function show(){
+      var name = document.getElementById("name");
+      var pass = document.getElementById("pass");
+
+      alert(`hello, Welcome back mr/,s ${name.value} your password is ${pass.value}`);
+      }
+    </script>
+  </body>
+</html>

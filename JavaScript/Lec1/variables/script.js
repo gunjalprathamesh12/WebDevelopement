@@ -8,3 +8,6 @@ console.log(c);
 var name = "Prathamesh";
 console.log(name);
 /*Variables are used to store the value*/
+
+var aa=10;
+console.log(aa);
