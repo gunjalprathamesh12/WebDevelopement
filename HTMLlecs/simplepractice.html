@@ -1,88 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simple start</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <h2>HELLO</h2>
-    <h3>this is my first html page</h3>
-    <h4>i am learning html</h4>
-    <h5>hello</h5>
-    <h6>this is heading 6</h6>
-    <br>
-    <hr>
-    <p>This is my first paragraph.</p>
-    <p>This is my second paragraph.</p>
-    <br>
-    <hr>
-  <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-<h1>This is a heading<h2>hello</h2></h1>
+<head>
+  <meta charset="UTF-8">
+  <title>Cursor Styles Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 40px;
+    }
+    a {
+      display: block;
+      margin: 10px;
+      padding: 10px;
+      text-decoration: none;
+      color: white;
+      background-color: tomato;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 5px;
+    }
 
-<hr><hr><hr>
+    /* Cursor styles */
+    .default:hover { cursor: default; background-color: teal; }
+    .pointer:hover { cursor: pointer; background-color: orange; }
+    .crosshair:hover { cursor: crosshair; background-color: purple; }
+    .text:hover { cursor: text; background-color: darkblue; }
+    .move:hover { cursor: move; background-color: brown; }
+    .wait:hover { cursor: wait; background-color: gray; }
+    .help:hover { cursor: help; background-color: green; }
+    .not-allowed:hover { cursor: not-allowed; background-color: red; }
+    .zoom-in:hover { cursor: zoom-in; background-color: darkcyan; }
+    .zoom-out:hover { cursor: zoom-out; background-color: darkmagenta; }
+  </style>
+</head>
+<body>
 
-<p title="I'm a tooltip">This is a paragraph.</p>
-<hr><hr><p>
-This paragraph
-contains a lot of lines
-in the source code,
-but the browser
-ignores it.
-</p>
+  <h1>Cursor Styles on Hover</h1>
 
-<p>
-This paragraph
-contains         a lot of spaces
-in the source         code,
-but the        browser
-ignores it.
-</p>
+  <a href="#" class="default">Default (Arrow)</a>
+  <a href="#" class="pointer">Pointer (Hand)</a>
+  <a href="#" class="crosshair">Crosshair</a>
+  <a href="#" class="text">Text (I-beam)</a>
+  <a href="#" class="move">Move Arrows</a>
+  <a href="#" class="wait">Wait (Loading)</a>
+  <a href="#" class="help">Help (Question Mark)</a>
+  <a href="#" class="not-allowed">Not Allowed (🚫)</a>
+  <a href="#" class="zoom-in">Zoom In (+)</a>
+  <a href="#" class="zoom-out">Zoom Out (–)</a>
 
-<hr>
-<pre>
-  My Bonnie lies over the ocean.
-
-  My Bonnie lies over the sea.
-
-  My Bonnie lies over the ocean.
-
-  Oh, bring back my Bonnie to me.
-</pre>
-<p style="color: rgb(2, 2, 2); background-color: thistle; font-size: 20px; font-family: Arial; text-align: center;  border: 2px solid blue; padding: 10px; margin: 15px;   box-shadow: 5px 5px 5px grey; ">
-  My Bonnie lies over the ocean.
-
-  My Bonnie lies over the sea.
-
-  My Bonnie lies over the ocean.
-
-  Oh, bring back my Bonnie to me.
-</p>
-
-<hr>
-<hr>
-<pre>
-  My Bonnie lies over the ocean.
-
-  My
-   Bonnie lies over the sea.
-
-  My Bonnie lies over the ocean.
-
-  Oh, bring back my Bonnie to me.
-</pre>
-
-<hr><hr>
-<pre>
-  My Bonnie lies over the ocean.
-
-  My Bonnie lies over the sea.
-
-  My Bonnie lies over the ocean.
-
-  Oh, bring back my Bonnie to me.
-</pre>
-
-  </body>
+</body>
 </html>
