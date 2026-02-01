@@ -1,0 +1,15 @@
+h1{
+    font-weight: normal;
+    text-decoration: underline overline #ff3028;
+}
+
+h2{
+    text-decoration: line-through;
+}
+p{
+    text-decoration: overline;
+}
+
+.link{
+    text-decoration: none;
+}
