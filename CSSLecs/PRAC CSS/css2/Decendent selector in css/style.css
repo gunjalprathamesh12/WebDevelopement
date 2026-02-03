@@ -1,0 +1,21 @@
+/* *{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: wheat;
+} */
+
+h3{
+    color: red;
+}
+
+h1{
+    color: #b92b27;
+}
+
+h1,h3{
+    color: #b92b27;
+}
+
+/*decendent selector*/
+ p a{
+    color: green;
+}
