@@ -1,0 +1,25 @@
+#login {
+  background-color: white;
+}
+
+#signup {
+  background-color: #b92b27;
+}
+
+p + h3 {
+  text-decoration: underline;
+}
+
+.upvoter + button {
+  background-color: #b92b27;
+}
+
+div > input {
+  color: #b92b27;
+  background-color: turquoise;
+}
+
+input[type="text"] {
+  background-color: #b92b27;
+  color: rgb(15, 44, 237);
+}
