@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #1e3a8a,
+    #213e9b,
+    #2741ad,
+    #3043be,
+    #3c45cf,
+    #4645d7,
+    #5045df,
+    #5b44e7,
+    #6442e9,
+    #6c40ea,
+    #743dec,
+    #7c3aed
+  );
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
