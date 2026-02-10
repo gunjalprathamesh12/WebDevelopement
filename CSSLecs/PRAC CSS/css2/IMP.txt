@@ -1,0 +1,157 @@
+Here are short, simple, and precise notes on each topic you studied today, written for quick revision and clear understanding.
+
+1. Inline, Internal, External CSS
+
+Inline CSS: Written inside HTML tag using style attribute. Highest priority.
+
+Internal CSS: Written inside <style> tag in <head>.
+
+External CSS: Written in a separate .css file. Best for large projects.
+
+2. Element Selector in CSS
+
+Selects HTML elements by tag name.
+
+Example:
+
+p {
+  color: blue;
+}
+
+
+Applies to all <p> elements.
+
+3. Class Selector in CSS
+
+Selects elements with a specific class.
+
+Uses . (dot).
+
+Example:
+
+.box {
+  border: 1px solid black;
+}
+
+
+Can be used on multiple elements.
+
+4. ID Selector in CSS
+
+Selects one unique element.
+
+Uses #.
+
+Example:
+
+#header {
+  background: red;
+}
+
+
+ID should be unique in a page.
+
+5. Attribute Selector in CSS
+
+Selects elements based on attributes.
+
+Example:
+
+input[type="text"] {
+  color: green;
+}
+
+
+Useful for forms and inputs.
+
+6. Descendant Selector in CSS
+
+Selects elements inside another element.
+
+Uses space.
+
+Example:
+
+div p {
+  color: red;
+}
+
+
+Selects all <p> inside <div>.
+
+7. Sibling Selectors in CSS
+
+Select elements at the same level.
+
+Adjacent sibling (+): selects immediate next element.
+
+General sibling (~): selects all next siblings.
+
+Example:
+
+h1 + p {
+  color: blue;
+}
+
+8. Universal Selector in CSS
+
+Selects all elements.
+
+Uses *.
+
+Example:
+
+* {
+  margin: 0;
+}
+
+
+Often used for CSS reset.
+
+9. Pseudo-element
+
+Styles specific parts of an element.
+
+Uses ::.
+
+Example:
+
+p::first-letter {
+  font-size: 30px;
+}
+
+
+Common ones: ::before, ::after, ::first-line.
+
+10. !important in CSS
+
+Overrides all other CSS rules.
+
+Example:
+
+color: red !important;
+
+
+Should be avoided unless absolutely needed.
+
+11. Inheritance in CSS
+
+Child elements get some styles from parent automatically.
+
+Inherited: color, font-family, font-size
+
+Not inherited: margin, padding, border
+
+Reduces repeated code.
+
+12. Try1, Try2, Try3 (Practice Folders)
+
+Used for hands-on practice.
+
+Helps understand CSS behavior through testing.
+
+Best way to learn CSS is trial + error.
+
+One-line revision tip 🧠
+
+Selectors decide what to style, properties decide how to style, and priority decides which style wins.
