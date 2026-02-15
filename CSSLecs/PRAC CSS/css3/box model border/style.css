@@ -1,0 +1,42 @@
+div {
+  height: 300px;
+  width: 500px;
+  background-color: pink;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+h1 {
+  border: 2px solid blue;
+  border-left-color: red;
+  border-right-color: green;
+  border-top-color: yellow;
+  border-radius: 20px;
+  border-bottom-color: purple;
+  border-top: 2px dashed orange;
+}
+/* h1 {
+  border-width: 3px;
+  border-style: dashed;
+  border-color: rgb(108, 108, 238);
+  text-align: center;
+  width: 400px;
+  margin: 0% auto;
+} */
+
+/* old approch to create border around anything like border-width: 3px;
+  border-style: dashed;
+  border-color: rgb(108, 108, 238);
+  text-align: center;
+  width: 400px;
+  margin: 0% auto; but in new approch we can do border shortcut like border 2px solid blue; which is a short hand for border-width: 2px; border-style: solid; border-color: blue; */
+/* ----------------------------------------------------- */
+/* we can also control sides of border like top, right, bottom, left */
+/* border-top: 2px solid red;
+  border-right: 2px solid green;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid yellow; */
+  /* ------------------------------------------------------ */
+
+
