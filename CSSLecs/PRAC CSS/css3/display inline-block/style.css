@@ -1,0 +1,8 @@
+div {
+  background-color: greenyellow;
+  height: 100px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 20px;
+  display: inline-block;
+}

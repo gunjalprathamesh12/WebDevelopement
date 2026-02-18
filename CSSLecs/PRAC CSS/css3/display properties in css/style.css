@@ -1,0 +1,17 @@
+h2 {
+  display: inline;
+  background-color: pink;
+}
+
+/* span{
+  display: block;
+  background-color: lightcoral;
+} */
+
+span {
+  background-color: lightcoral;
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 20px;
+}
