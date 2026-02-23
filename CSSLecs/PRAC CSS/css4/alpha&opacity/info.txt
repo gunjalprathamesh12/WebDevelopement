@@ -1,0 +1,3 @@
+Alpha only manuplate color it not affect on the heading or text where as 
+
+OPACITY affects on all inlcuding heading , colors and all data inside html element 

@@ -1,0 +1,13 @@
+h1{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 1);
+}
+
+#opacity{
+    height: 100px;
+    width: 100px;
+    background-color: yellowish;
+    opacity: 0.5;
+    background-color: rgba(0, 0, 255, 0.5);
+}
