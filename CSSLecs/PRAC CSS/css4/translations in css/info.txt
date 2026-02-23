@@ -1,0 +1,24 @@
+SS transitions make changes in CSS properties smooth instead of instant.
+You define which property should change and how long it should take.
+They are commonly used with :hover to improve UI effects.
+Transitions make websites look cleaner and more professional.
+
+
+SYNTAX:-
+transition: property duration timing-function delay;
+
+-----------------------------------------------------------
+
+
+transition: <property> <duration> <timing-function> <delay>;
+
+ease
+linear
+ease-in
+ease-out
+ease-in-out
+step-start
+step-end
+steps(n, start)
+steps(n, end)
+cubic-bezier(x1, y1, x2, y2)
