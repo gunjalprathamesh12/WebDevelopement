@@ -1,0 +1,25 @@
+CSS Box Shadow Basics
+Box-shadow adds a shadow around any HTML element like a button or div, making it look raised or 3D.
+
+Simple Syntax
+Use it like: box-shadow: 5px 10px 8px gray;
+
+First number (5px): Horizontal shift (right if positive, left if negative).
+
+Second (10px): Vertical shift (down if positive, up if negative).
+
+Third (8px): Blur amount (higher = softer edges).
+
+Fourth (optional): Spread size (bigger shadow).
+
+Last: Color (e.g., #333 or "rgba(0,0,0,0.5)").
+
+Quick Examples
+css
+.shadow1 {
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.3);  /* Soft drop shadow */
+}
+
+.shadow2 {
+  box-shadow: inset 0 0 10px gray;  /* Inner shadow with 'inset' keyword */
+}
