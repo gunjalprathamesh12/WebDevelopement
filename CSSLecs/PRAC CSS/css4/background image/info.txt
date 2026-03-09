@@ -1,0 +1,28 @@
+CSS Background Image Basics
+The background-image property lets you add an image as the background of any element, like a div or body. Use it simply: background-image: url('your-image.jpg');—it places the image at the top-left by default.
+
+Key Values: Cover, Contain, Auto
+These control how the image fits the element via background-size (often shorthand with background-image).
+
+Value	What It Does	Best For
+cover	Scales image to cover entire area; crops if needed, no distortion.	Full-screen hero images.
+contain	Fits whole image inside; adds empty space if aspect ratios differ.	Logos or patterns without cropping.
+auto	Shows image at original size; repeats if background-repeat is not no-repeat.	Tiles or small icons.
+Quick Examples
+css
+.hero {
+  background-image: url('landscape.jpg');
+  background-size: cover;  /* Covers full div, crops edges */
+  height: 400px;
+}
+
+.logo-bg {
+  background-image: url('logo.png');
+  background-size: contain;  /* Fits logo perfectly */
+  background-repeat: no-repeat;
+}
+
+.tile {
+  background-image: url('pattern.gif');
+  background-size: auto;  /* Original size, repeats */
+}
