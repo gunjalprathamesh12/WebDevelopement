@@ -1,0 +1,17 @@
+.container {
+  background-color: lightblue;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#one,
+#two,
+#three {
+  background-color: lightgreen;
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
