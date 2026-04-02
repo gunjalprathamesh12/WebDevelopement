@@ -1,0 +1,40 @@
+.box {
+  height: 100px;
+  width: 300px;
+  background-color: pink;
+  animation: fontanimation 4s infinite reverse;
+  animation: coloranimation;
+  animation: widthanimation 2s infinite alternate;
+}
+
+@keyframes fontanimation {
+  0% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 40px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+
+@keyframes coloranimation {
+  from {
+    background-color: pink;
+  }
+  to {
+    background-color: rebeccapurple;
+  }
+}
+
+
+@keyframes widthanimation {
+    from {
+        width: 300px;
+    }
+    to {
+        width: 500px;
+    }
+    
+}
