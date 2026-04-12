@@ -13,3 +13,14 @@ console.log(a[10]); // a[10] is undefined
 
 console.log(a.charAt(0));
 console.log(a.lenght);
+
+let n="tony stark";
+console.log(n.toUpperCase());
+console.log(n.toLowerCase());
+console.log(n[0]); // n is not changed because string is immutable
+console.log(n[0].toUpperCase()); // n is not changed because string is immutable
+console.log(n); // n is not changed because string is immutable
+console.log(n.charAt(0).toUpperCase() + n.slice(1)); // n is not changed because string is immutable
+console.log(n[10000]);
+console.log(n.length);
+console.log(n[4]);
