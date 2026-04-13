@@ -1,4 +1,4 @@
-    if(true)
+    if(false)
     {
         console.log("I am inside if")
     }else{
