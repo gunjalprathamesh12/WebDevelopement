@@ -9,3 +9,7 @@ let pranav="Pranav Gunjal";
 console.log(pranav.slice(-7).trim().toUpperCase());//method chaining
 
 // Output: Gunjal
+
+let avcoe="AVCOE sangamner";
+console.log(avcoe.slice(0,4));
+console.log(avcoe.slice(-6));
