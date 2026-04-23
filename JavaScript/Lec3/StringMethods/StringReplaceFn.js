@@ -11,3 +11,8 @@ console.log(n.repeat(3));
 
 let fruit="MAngo";
 console.log(fruit.repeat(1000));
+
+let sss="i dont love coding";
+console.log(sss.replace("dont","love"));
+
+console.log(sss.repeat(10000000));
