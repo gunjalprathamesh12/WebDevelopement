@@ -1,0 +1,30 @@
+let arr = [10, 20, 30, 40];
+
+// 1️⃣ Simple for loop वापरून
+for(let i=0; i<arr.length; i++){
+  console.log(arr[i]); // प्रत्येक value index वापरून print होते
+}
+
+// 2️⃣ for...of loop वापरून
+for(let value of arr){
+  console.log(value); // direct value मिळते
+}
+
+// 3️⃣ forEach method वापरून
+arr.forEach(val => {
+  console.log(val); // प्रत्येक element वर function चालतो
+});
+
+// 4️⃣ Template literals वापरून (backticks ``)
+let name = "Prathamesh";
+let age = 22;
+console.log(`My name is ${name} and my age is ${age}`); 
+// variables string मध्ये directly embed करता येतात
+
+// 5️⃣ Array values template literals मध्ये वापरून
+console.log(`First value: ${arr[0]}, Second value: ${arr[1]}`);
+
+// 6️⃣ Loop + template literals
+arr.forEach((val, index) => {
+  console.log(`Index ${index} has value ${val}`);
+});
