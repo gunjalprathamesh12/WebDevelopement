@@ -4,7 +4,6 @@ function outerfuntion() {
   function innerfunctin() {
     console.log(a + b);
   }
+  innerfunctin();
 }
-innerfunctin();
-
 outerfuntion();
