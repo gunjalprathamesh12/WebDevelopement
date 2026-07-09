@@ -1,0 +1,186 @@
+========================================
+JAVASCRIPT - PART 7 REVISION NOTES
+========================================
+(Revision purpose sathi - months/years nantar quick refresh)
+
+----------------------------------------
+1. 'this' KEYWORD
+----------------------------------------
+- 'this' mhanje "sadhya function la kon call kartay te object"
+- 'this' cha value HOW function call zala yavar thartat, KUTHE lihila yavar nahi
+
+Rules:
+a) Object.method() -> this = to object
+   user.greet() -> this = user
+
+b) Normal function call (kontyahi object shivay) -> this = window/undefined
+   show() -> this = window
+
+c) new Keyword sobat (constructor) -> this = navin object
+   new Person() -> this = new instance
+
+d) Event handler madhe -> this = to HTML element
+   button.addEventListener -> this = button
+
+Common Mistake:
+- Object chya method madhla normal function (jasa setTimeout chya at) -> 
+  'this' badalun window hoto, expected object milat nahi -> undefined error
+
+----------------------------------------
+2. TRY & CATCH
+----------------------------------------
+- Error handling sathi - program crash na hota pudhe chalu rahava mhanun
+
+Syntax:
+try {
+  // error deu shakel asa code
+} catch (error) {
+  // error ali tar kay karaycha
+} finally {
+  // he block ALWAYS chalte, error ali kinva nahi
+}
+
+Important:
+- try block madhe error ali ki, tyach point war try thambto, khali che statements skip hotat
+- catch madhe jaun error.message print/handle karta yeto
+- Validation (check) ALWAYS aadhi kar, mag actual kaam (calculation) kar
+  (chuk: aadhi divide karun mag number ahe ki nahi check karne)
+
+----------------------------------------
+3. ARROW FUNCTIONS
+----------------------------------------
+- Function lihaycha short/modern way, '=>' vaprun
+
+Normal function:
+function add(a, b) { return a + b; }
+
+Arrow function:
+const add = (a, b) => { return a + b; };
+
+Syntax variations:
+- Single parameter -> brackets optional: x => {...}
+- No parameter -> empty brackets must: () => {...}
+
+Normal vs Arrow function - Differences:
+- Arrow function la statutcha 'this' nasto (parent scope cha ghetो)
+- Arrow function la 'arguments' object nasto
+- Arrow function 'new' sobat (constructor mhanun) vaparta yet nahi
+
+----------------------------------------
+4. IMPLICIT RETURN (Arrow Functions madhe)
+----------------------------------------
+- Curly braces { } nasतील tar single expression AAPOAAP return hoto
+- 'return' keyword lihaychi garaj nahi
+
+Explicit return (return keyword lihile):
+const square = (x) => { return x * x; };
+
+Implicit return (return na lihita, tarihi value milte):
+const square = (x) => x * x;
+
+IMPORTANT RULE:
+- Curly braces { } asतील tar 'return' LIHAVACH LAGTO, nahitar undefined yeto
+  const square = (x) => { x * x };  --> undefined (CHUK)
+
+Object return karताना:
+- Object direct return karायचा असेल tar { } la ( ) madhe wrap karava lagto
+  const getUser = (name) => ({ name: name });  -- CORRECT
+
+----------------------------------------
+5. setTimeout FUNCTION
+----------------------------------------
+- Dilelya vela nantar (delay nantar) EKDACH function chalvto
+
+Syntax:
+setTimeout(function, milliseconds);
+
+Example:
+setTimeout(() => { console.log("3 sec nantar"); }, 3000);
+
+IMPORTANT - Non-blocking (Asynchronous):
+- setTimeout code la thambवत nahi, bakicha code (khालचा) AADHI chalto
+- setTimeout cha code nantar (background madhe time purna zalyavar) chalto
+
+clearTimeout:
+- Timer cancel karायला vaparतात, vel purn houchya aadhich
+  const timer = setTimeout(...);
+  clearTimeout(timer);
+
+----------------------------------------
+6. setInterval FUNCTION
+----------------------------------------
+- Dilelya thराविक velechya antarane, VAARANVAAR (repeatedly) function chalवत rahto
+
+Syntax:
+setInterval(function, milliseconds);
+
+Example:
+setInterval(() => { console.log("dar 2 sec la"); }, 2000);
+
+IMPORTANT:
+- Manually thambवeprayant HA CODE KADHICH THAMBAT NAHI
+- clearInterval vaparun thambavne KHUP GARAJECHE (nahitar continuously chalत rahil)
+
+clearInterval example:
+let count = 0;
+const myInterval = setInterval(() => {
+  count++;
+  if (count === 5) { clearInterval(myInterval); }
+}, 1000);
+
+setTimeout vs setInterval:
+- setTimeout -> EKDACH chalte | clearTimeout ne thambते
+- setInterval -> VAARANVAAR chalte | clearInterval ne thambते
+
+----------------------------------------
+7. 'this' WITH ARROW FUNCTIONS
+----------------------------------------
+- Arrow function cha SWATACHA 'this' NASTOCH
+- To BAHERCHYA (parent) scope madhla 'this' JASACHA TASA UCHALTO
+- Yala "Lexical this" mhantat (this KUTHE LIHILA ahe tyavar thartat, kuthe CALL zala yavar nahi)
+
+Problem (Normal function madhe):
+const user = {
+  name: "Pratham",
+  greet: function() {
+    setTimeout(function() {
+      console.log(this.name); // undefined (this = window zala)
+    }, 1000);
+  }
+};
+
+Solution (Arrow function vaparun):
+const user = {
+  name: "Pratham",
+  greet: function() {
+    setTimeout(() => {
+      console.log(this.name); // Pratham (this = user, parent che ghetले)
+    }, 1000);
+  }
+};
+
+GOLDEN RULE:
+- Object cha METHOD lihayacha (this.property vapraycha) -> NORMAL function vapar
+- Callback function (setTimeout, event etc chya aat) jithe BAHERCHA this hava -> ARROW function vapar
+
+Example Difference:
+const obj = {
+  name: "Pratham",
+  normalFunc: function() { console.log(this.name); },  // Pratham
+  arrowFunc: () => { console.log(this.name); }          // undefined
+};
+
+========================================
+QUICK REVISION CHECKLIST
+========================================
+[ ] this - call kasa zala yavar thartat
+[ ] try/catch - error handle karायला, validation AADHI kara
+[ ] arrow function - short syntax, this nasto swatacha
+[ ] implicit return - { } nasel tar auto return, object sathi ( ) wrap kara
+[ ] setTimeout - ekdach, delay nantar, non-blocking
+[ ] setInterval - vaarnvaar, clearInterval ne thambवaycha
+[ ] this with arrow - parent cha this ghete (lexical this)
+
+========================================
+Notes made on: JavaScript Part 7 - Course Revision
+========================================
