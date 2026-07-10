@@ -1,3 +1,4 @@
-let a = (n) => n * 2;
-
-console.log(a(5)); // Output: 10
+let a = (n) => {
+  return n % 2 === 0;
+};
+console.log(a(4)); // Output: true
