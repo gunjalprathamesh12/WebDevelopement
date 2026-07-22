@@ -295,8 +295,44 @@
 
 // getAvg();
 
-try {
-  console.log(a);
-} catch (err) {
-  console.log(err);
-}
+// try {
+//   console.log(a);
+// } catch (err) {
+//   console.log(err);
+// }
+
+// let a = (a, b) => {
+//   console.log(a + b);
+// };
+
+// let b=
+
+// const sum = (a, b) => {
+//   console.log(a + b);
+// };
+// sum(1, 212);
+
+// let cube = (n) => {
+//   console.log(n * n * n);
+// };
+// cube(2);
+
+// const a = (a, b) => a + b;
+// console.log(a(2, 3));
+
+// const mul = (a, b) => a * b;
+// console.log(mul(20, 2));
+// function hello() {
+//   console.log("hello from hello functions");
+// }
+
+// console.log("hi ");
+// setTimeout(hello, 1000);
+let count = 0;
+let a = setInterval(() => {
+  console.log("hell");
+  if (count == 10) {
+    clearInterval(a);
+  }
+  count++;
+}, 1000);
