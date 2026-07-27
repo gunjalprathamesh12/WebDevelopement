@@ -1,5 +1,3 @@
-function change() {
-  document.getElementById("hd").innerHTML = "<i>pathi</i>";
-}
-
-document.getElementsByTagName(h1)
+    let par1 = document.createElement("p");
+    par1.innerText = "hi there i am prathamesh";
+    document.querySelector("body").append(par1);
