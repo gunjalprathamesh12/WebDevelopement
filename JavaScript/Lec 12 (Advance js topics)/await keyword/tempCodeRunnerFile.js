@@ -1,8 +1,6 @@
 // await means wait
 // await keyword we can only use when the function is async function
 // what does await keyword does it stops exeution of function until its current promise get resolve
-
-// async and await keyword is used where promises are used
 function getNum() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
