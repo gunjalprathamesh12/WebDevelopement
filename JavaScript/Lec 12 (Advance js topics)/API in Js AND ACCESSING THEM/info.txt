@@ -21,3 +21,7 @@ So, an API helps one software talk to another software without showing the insid
 
 ✨ Example:
 When you use Google Maps inside Ola/Uber app, the app doesn’t build maps itself. It just asks Google Maps through an API to show directions.
+
+
+
+what does aPI DOES IT RETURN MAINLIY A DATA MOSTLY THIS DATA IS STORED IN JASON FOMRAT
