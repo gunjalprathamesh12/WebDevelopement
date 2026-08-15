@@ -1,0 +1,23 @@
+API means Application Programming Interface.
+It is like a messenger between two software programs.
+
+Imagine you go to a restaurant 🍴.
+
+You (the customer) don’t go inside the kitchen.
+
+Instead, you tell the waiter what you want.
+
+The waiter goes to the kitchen, brings the food, and gives it to you.
+
+Here:
+
+You = user/program
+
+Kitchen = another system/service
+
+Waiter = API
+
+So, an API helps one software talk to another software without showing the inside details.
+
+✨ Example:
+When you use Google Maps inside Ola/Uber app, the app doesn’t build maps itself. It just asks Google Maps through an API to show directions.
