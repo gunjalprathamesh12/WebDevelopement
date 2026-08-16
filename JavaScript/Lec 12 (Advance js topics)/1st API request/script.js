@@ -5,7 +5,7 @@ fetch(url)
     res.json().then((data) => {
       console.log(data.fact);
     });
-  })
+  }) 
   .catch((err) => {
     console.log(err);
   });
