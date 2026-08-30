@@ -2,6 +2,7 @@
 
 //writing some functions in one file and pass then in another file so we can use those functions in another code file
 
+//this is the example of file to file transfer
 
 const sum = (a, b) => a + b;
 const sub = (a, b) => a - b;
