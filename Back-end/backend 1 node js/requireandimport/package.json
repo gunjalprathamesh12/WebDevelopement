@@ -1,0 +1,12 @@
+{
+  "name": "requireandimport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "maths.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prathamesh gunjal",
+  "license": "ISC",
+  "type": "module"
+}
