@@ -24,8 +24,8 @@ let obj = {
 
 //3rd way
 
-module.export.sum = (a, b) => a + b;
-module.export.sub(a, b) => a - b;
-module.export.mul(a, b) => a * b;
-module.export.g = 9.8;
-module.export.PI = 3.14;
+// module.export.sum = (a, b) => a + b;
+// module.export.sub(a, b) => a - b;
+// module.export.mul(a, b) => a * b;
+// module.export.g = 9.8;
+// module.export.PI = 3.14;
